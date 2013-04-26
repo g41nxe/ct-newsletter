@@ -1,0 +1,7 @@
+# dont track IDE files
+# Netbeans
+nbproject/
+# Eclipse
+.settings/
+.buildpath
+.project
