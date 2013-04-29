@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="en">
+<head>
+    <title>Who is Who</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="stylesheet" type="text/css" href="style/css/game.css" />
+    
+    
+    <script type="text/javascript">
+
+
+    // global var for function "jumpTo()"
+    var last_hook = "";
+
+    // function to jump to a given hook
+    function jumpTo(hook)
+    {
+	if(last_hook !== hook && hook !== "")
+	{
+	    // deklare global var last_hook so it jumps just once
+	    last_hook = hook;
+	    // Jump to the hook
+	    window.location.hash = hook;
+	}
+	
+	// return always true
+	return true;
+    }
+    
+    
+    // function to load the form an the congratulation container
+    function gameSuccess(succ)
+    {
+	if(succ === true)
+	{
+	    // get the div-objektks
+	    var container1 = document.getElementById("on_success");
+	    var container2 = document.getElementById("participant_form");
+	    
+	    // change the display (css) values from "none" to "block"
+	    container1.style.display = "block";
+	    container2.style.display = "block";
+	}
+	
+	// return always true
+	return true;
+    }
+    
+    // calling this function while developing
+    window.onload = function()
+    {
+	gameSuccess(true);
+    };
+        
+    </script>
+    
+    
+</head>
+
+<body>
+    
+<!-- main is centered -->
+<div id="main">
+    
+    
+    <div id="header_1">
+	<!-- background-image -->
+    </div>
+    
+    <div id="header_2">
+	<!-- background-image -->
+	<div id="header_2_text">
+	    <!--img src="img/alte_hasen_u_neue_gesichter.png" alt="Alte Hasen und neue Gesichter bei C&amp;T. Wer ist wer - und wer macht was?&#10;Spiel mit uns und gewinne ein Abendessen mit einem C&amp;T&lsquo;ler deiner Wahl!" /-->
+	    Alte Hasen und neue Gesichter bei C&amp;T. Wer ist wer - und wer macht was?<br /><b>Spiel mit uns und gewinne ein Abendessen mit einem C&amp;T&lsquo;ler deiner Wahl!</b>
+	</div>
+    </div>
+
+    <div id="game_field" onmousedown="javascript:jumpTo('hook_game_field');">
+	<a name="hook_game_field">&nbsp;</a>
+	
+	
+	<div id="portrait_1"></div>
+	<div id="portrait_job_1"></div>
+	<div id="job_1"></div>
+	
+    </div>
+    
+    <div id="link_to_website">
+	<img src="img/link_to_web.png" width="800" height="290" border="0" usemap="#map_link_to_web" />
+
+	<map name="map_link_to_web">
+	    <area shape="rect" coords="190,153,781,265" alt="Link to dmcgermany.de" href="http://www.dmcgermany.de/about-us/" target="_blank" />
+	</map>
+    </div>
+    
+    <div id="on_success">
+	<a name="hook_success">&nbsp;</a>
+    </div>
+    
+    <div id="participant_form">
+	<div id="formular">
+	<form action="#" method="post">
+	    Name: <input type="text" name="username" value="" /><br />
+	    Unternehmen: <input type="text" name="company" value="" /><br />
+	    E-Mail-Adresse: <input type="text" name="email" value="" /><br />
+	    Mit diesem C&amp;T&lsquo;ler würde ich gerne Essen gehen: <input type="text" name="prefered_person" value="" /><br />
+	</form>
+	</div>
+    </div>
+    
+    <div id="imex">
+	
+    </div>
+    
+</div><!-- END: div-main -->
+
+
+</body>
+</html>
