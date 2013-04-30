@@ -5,3 +5,7 @@ nbproject/
 .settings/
 .buildpath
 .project
+
+#ignore Polaroids
+img/polaroids/*.png
+img/polaroids/*.jpg
