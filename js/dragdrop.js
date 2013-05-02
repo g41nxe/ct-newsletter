@@ -5,7 +5,14 @@
  * 
  */
 var job2portrait = {
-	"job_1" : "portrait_1"
+	"job_1" : "portrait_1",
+	"job_2" : "portrait_2",
+	"job_3" : "portrait_3",
+	"job_4" : "portrait_4",
+	"job_5" : "portrait_5",
+	"job_6" : "portrait_6",
+	"job_7" : "portrait_7",
+	"job_8" : "portrait_8"
 };
 
 var portrait2job = {};
