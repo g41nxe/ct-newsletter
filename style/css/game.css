@@ -119,6 +119,65 @@ div{border: 1px dotted #f00;}/**/
     color: #a39da0;
     /* The display value will be changed via JavaScript */
     display:inherit; 
+    font-size: 17px;
+}
+
+#participant_form #formular fieldset
+{
+	border: none;
+	margin: 0px;
+	padding: 10px;
+}
+
+#participant_form #formular span
+{
+	margin: 4px 0px;
+	display: block;
+	float: left;
+	line-height: 36px;
+	font-family: "Feijoa Medium";
+	font-weight: bold;
+}
+
+#participant_form #formular span.long 
+{
+	width: 55%;
+}
+
+#participant_form #formular span.short {
+	width: 20%;
+}
+
+#participant_form #formular input 
+{
+	margin: 4px 0px;
+	border: none;
+	height: 36px;
+}
+
+#participant_form #formular input.long
+{
+	width: 80%;
+}
+
+#participant_form #formular input.short
+{
+	width: 45%;
+}
+
+#participant_form #formular input#submit
+{
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	height: 51px;
+	background-image: url("../../img/button.png");
+	font-family: "Feijoa Medium";
+	font-size: 20px;
+	color: #8e0047;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #imex
@@ -130,7 +189,25 @@ div{border: 1px dotted #f00;}/**/
     background-repeat: no-repeat;
     width: 800px;
     height: 160px;
-    display:block; 
+    display: block;
+}
+
+#imex p
+{
+	color: black;
+	margin-left: 250px;
+	margin-right: 21px;
+	line-height: 30px;
+	font-size: 20px;
+	font-family: "Feijoa Medium";
+	text-align: center;
+}
+
+#imex span#highlight
+{
+	color: #8e0047;
+	font-size: 30px;
+	text-decoration: underline;
 }
 
 /*
@@ -163,7 +240,7 @@ und die Jobtitel selbst definiert.
     position: absolute;
     top: 222px;
     left: 22px;
-    background-color: #ff0000;
+#    background-color: #ff0000;
     width: 115px;
     height: 32px;
     display:block;
@@ -178,7 +255,7 @@ und die Jobtitel selbst definiert.
     position: absolute;
     top: 139px;
     left: 272px;
-    background-color: #ff0000;
+#    background-color: #ff0000;
     width: 115px;
     height: 32px;
     display:block;

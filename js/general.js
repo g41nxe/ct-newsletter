@@ -32,5 +32,5 @@ function gameSuccess(succ) {
 
 // calling this function while developing
 window.onload = function() {
-	//gameSuccess(true);
+	gameSuccess(true);
 };
