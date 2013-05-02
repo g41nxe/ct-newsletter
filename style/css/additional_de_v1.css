@@ -1,0 +1,44 @@
+@charset "UTF-8"; 
+/*
+Ab hier werden die Container der Fotos, deren Bereiche fuer die Jobtitel
+und die Jobtitel selbst definiert.
+
+- portrait_n : Das Polaroid-Bild
+- portrait_job_n : Der Bereich unter dem jeweiligen Polaroid-Bild
+- job_n : Der Ursprungsbereich des Jobtitels
+*/
+
+#game_field div { background-color: #ff0000; }
+
+/* 1 */
+#game_field #portrait_1
+{
+    position: absolute;
+    top: 65px;
+    left: -36px;
+    background-image: url("../../img/polaroids/Maika.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_1
+{
+    position: absolute;
+    top: 222px;
+    left: 22px;
+    width: 115px;
+    height: 32px;
+    display:block;
+}
+
+#game_field #job_1
+{
+    position: absolute;
+    top: 139px;
+    left: 272px;
+    width: 115px;
+    height: 32px;
+    display:block;
+}
