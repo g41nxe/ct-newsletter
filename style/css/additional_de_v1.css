@@ -312,3 +312,459 @@ und die Jobtitel selbst definiert.
     display:block;
     z-index: 1000;
 }
+
+
+/* 9 */
+#game_field #portrait_9
+{
+    position: absolute;
+    top: 525px;
+    left: 260px;
+    background-image: url("../../img/polaroids/tobi.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_9
+{
+    position: absolute;
+    top: 670px;
+    left: 320px;
+    width: 61px;
+    height: 27px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_9
+{
+    position: absolute;
+    top: 380px;
+    left: 361px;
+    /**/background-image: url("../../img/titles/sports.png");
+    background-repeat: no-repeat;
+    width: 61px;
+    height: 27px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 10 */
+#game_field #portrait_10
+{
+    position: absolute;
+    top: 693px;
+    left: 255px;
+    background-image: url("../../img/polaroids/Kerstin.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_10
+{
+    position: absolute;
+    top: 842px;
+    left: 285px;
+    width: 115px;
+    height: 24px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_10
+{
+    position: absolute;
+    top: 141px;
+    left: 389px;
+    /**/background-image: url("../../img/titles/head_scan.png");
+    background-repeat: no-repeat;
+    width: 115px;
+    height: 24px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 11 */
+#game_field #portrait_11
+{
+    position: absolute;
+    top: 486px;
+    left: 411px;
+    background-image: url("../../img/polaroids/Corina.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_11
+{
+    position: absolute;
+    top: 630px;
+    left: 424px;
+    width: 116px;
+    height: 26px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_11
+{
+    position: absolute;
+    top: 179px;
+    left: 373px;
+    /**/background-image: url("../../img/titles/head_ger.png");
+    background-repeat: no-repeat;
+    width: 116px;
+    height: 26px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 12 */
+#game_field #portrait_12
+{
+    position: absolute;
+    top: 668px;
+    left: 392px;
+    background-image: url("../../img/polaroids/Peter.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_12
+{
+    position: absolute;
+    top: 822px;
+    left: 435px;
+    width: 78px;
+    height: 18px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_12
+{
+    position: absolute;
+    top: 299px;
+    left: 397px;
+    /**/background-image: url("../../img/titles/director.png");
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 18px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 13 */
+#game_field #portrait_13
+{
+    position: absolute;
+    top: 61px;
+    left: 530px;
+    background-image: url("../../img/polaroids/Erika.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_13
+{
+    position: absolute;
+    top: 216px;
+    left: 556px;
+    width: 79px;
+    height: 41px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_13
+{
+    position: absolute;
+    top: 384px;
+    left: 442px;
+    /**/background-image: url("../../img/titles/head_ita.png");
+    background-repeat: no-repeat;
+    width: 79px;
+    height: 41px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 14 */
+#game_field #portrait_14
+{
+    position: absolute;
+    top: 47px;
+    left: 672px;
+    background-image: url("../../img/polaroids/CF.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_14
+{
+    position: absolute;
+    top: 200px;
+    left: 684px;
+    width: 108px;
+    height: 39px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_14
+{
+    position: absolute;
+    top: 267px;
+    left: 450px;
+    /**/background-image: url("../../img/titles/pm_uk.png");
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 39px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 15 */
+#game_field #portrait_15
+{
+    position: absolute;
+    top: 252px;
+    left: 541px;
+    background-image: url("../../img/polaroids/Yvonne.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_15
+{
+    position: absolute;
+    top: 405px;
+    left: 551px;
+    width: 122px;
+    height: 43px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_15
+{
+    position: absolute;
+    top: 92px;
+    left: 354px;
+    /**/background-image: url("../../img/titles/head_col.png");
+    background-repeat: no-repeat;
+    width: 122px;
+    height: 43px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 16 */
+#game_field #portrait_16
+{
+    position: absolute;
+    top: 242px;
+    left: 678px;
+    background-image: url("../../img/polaroids/ega.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_16
+{
+    position: absolute;
+    top: 399px;
+    left: 698px;
+    width: 80px;
+    height: 29px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_16
+{
+    position: absolute;
+    top: 255px;
+    left: 273px;
+    /**/background-image: url("../../img/titles/head_muc.png");
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 29px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 17 */
+#game_field #portrait_17
+{
+    position: absolute;
+    top: 437px;
+    left: 544px;
+    background-image: url("../../img/polaroids/Bea.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_17
+{
+    position: absolute;
+    top: 599px;
+    left: 579px;
+    width: 58px;
+    height: 47px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_17
+{
+    position: absolute;
+    top: 228px;
+    left: 377px;
+    /**/background-image: url("../../img/titles/head_cru.png");
+    background-repeat: no-repeat;
+    width: 58px;
+    height: 47px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 18 */
+#game_field #portrait_18
+{
+    position: absolute;
+    top: 429px;
+    left: 674px;
+    background-image: url("../../img/polaroids/Marko.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_18
+{
+    position: absolute;
+    top: 587px;
+    left: 701px;
+    width: 89px;
+    height: 40px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_18
+{
+    position: absolute;
+    top: 79px;
+    left: 247px;
+    /**/background-image: url("../../img/titles/buis_dev.png");
+    background-repeat: no-repeat;
+    width: 89px;
+    height: 40px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 19 */
+#game_field #portrait_19
+{
+    position: absolute;
+    top: 647px;
+    left: 525px;
+    background-image: url("../../img/polaroids/Romy.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_19
+{
+    position: absolute;
+    top: 800px;
+    left: 539px;
+    width: 134px;
+    height: 46px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_19
+{
+    position: absolute;
+    top: 413px;
+    left: 295px;
+    /**/background-image: url("../../img/titles/pm_fra.png");
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 46px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 20 */
+#game_field #portrait_20
+{
+    position: absolute;
+    top: 639px;
+    left: 665px;
+    background-image: url("../../img/polaroids/Birgit.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_20
+{
+    position: absolute;
+    top: 803px;
+    left: 688px;
+    width: 99px;
+    height: 40px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_20
+{
+    position: absolute;
+    top: 215px;
+    left: 436px;
+    /**/background-image: url("../../img/titles/head_lat.png");
+    background-repeat: no-repeat;
+    width: 99px;
+    height: 40px;
+    display:block;
+    z-index: 1000;
+}
