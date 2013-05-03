@@ -36,8 +36,8 @@ function send_mail($data, $to="ilike@dmcgermany.de", $from="ilike@dmcgermany.de"
 	return @mail($to, "New Newsletter Game Submission", $body, $headers);
 }
 
-
 if (isset($_POST['action']) && isset($_POST['email']) && is_email_valid($_POST['email'])){
+	global $ready;
 	$data = array();
 	$data['E-Mail'] = $_POST['email'];
 
@@ -51,4 +51,5 @@ if (isset($_POST['action']) && isset($_POST['email']) && is_email_valid($_POST['
 		$data['Prefered Person'] = $_POST['prefered_person'];
 
 	send_mail($data);
+	$ready = true;
 }

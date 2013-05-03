@@ -17,6 +17,12 @@ var job2portrait = {
 
 var portrait2job = {};
 
+function scrollTo(id){
+	$('html, body').animate( {
+		scrollTop : $(id).offset().top
+	}, 1500);
+}
+
 /*
  * check if all jobtitles hav been positioned correctly (correctly means: all
  * divs containing the correct job titles contain exactly 1 element beacuse we
@@ -38,7 +44,7 @@ function checkStatus() {
 		$('html, body').animate( {
 			scrollTop : $("#participant_form").offset().top
 		}, 1500);
-	}
+	} 
 }
 
 /**
@@ -123,12 +129,17 @@ function InitDragAndDrop(job_id, portrait_id) {
 	$(job_id).draggable( {
 		addClasses : false,
 		revert : true,
-		revertDuration : 300
+		revertDuration : 300,
+	});
+	
+	$(job_id).hover(function(){
+		$(job_id).css("cursor", "move");
 	});
 
 	$(portrait_id).droppable( {
 		addClasses : false,
 		accept : "*",
+		tolerance : "pointer",
 		over : function(event, ui) {
 			if (ui.draggable.attr('id') != portrait2job[$(this).attr('id')])
 				toggleImage($(this), true);
@@ -140,6 +151,8 @@ function InitDragAndDrop(job_id, portrait_id) {
 			if (ui.draggable.attr('id') == portrait2job[$(this).attr('id')]) {
 				animateDropFade($(this).next(), ui.draggable);
 				checkStatus();
+			} else {
+				  $(this).effect("shake", { times:1, distance: 5 }, 300);
 			}
 			toggleImage($(this), false);
 		}
