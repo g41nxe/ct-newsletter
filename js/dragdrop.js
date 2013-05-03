@@ -12,7 +12,22 @@ var job2portrait = {
 	"job_5" : "portrait_5",
 	"job_6" : "portrait_6",
 	"job_7" : "portrait_7",
-	"job_8" : "portrait_8"
+	"job_8" : "portrait_8",
+	"job_9" : "portrait_9",
+	"job_10" : "portrait_10",
+	"job_11" : "portrait_11",
+	"job_12" : "portrait_12",
+	"job_13" : "portrait_13",
+	"job_14" : "portrait_14",
+	"job_15" : "portrait_15",
+	"job_16" : "portrait_16",
+	"job_17" : "portrait_17",
+	"job_18" : "portrait_18",
+	"job_19" : "portrait_19",
+	"job_20" : "portrait_20"
+	
+	
+	
 };
 
 var portrait2job = {};
