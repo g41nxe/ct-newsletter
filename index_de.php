@@ -27,6 +27,8 @@ header("Content-Type: text/html; charset=utf-8");
 	<?php
     if ($ready)
     	echo '<script type="text/javascript" src="js/action.js"></script>';
+    if (isset($_GET['solve']))
+    	echo '<script type="text/javascript">$(document).ready(function(){ solve(); });</script>';
 	?>
 
 </head>
@@ -81,55 +83,55 @@ header("Content-Type: text/html; charset=utf-8");
 	<div id="portrait_8"></div>
 	<div id="portrait_job_8"></div>
 	<div id="job_8"><!--img src="img/titles/east_eu.png" alt="Head Eastern Europe" /--></div>
-	
+
 	<div id="portrait_9"></div>
 	<div id="portrait_job_9"></div>
 	<div id="job_9"><!--img src="img/titles/sports.png" alt="Sports" /--></div>
-	
+
 	<div id="portrait_10"></div>
 	<div id="portrait_job_10"></div>
 	<div id="job_10"><!--img src="img/titles/head_scan.png" alt="Head Scandinavia" /--></div>
-	
+
 	<div id="portrait_11"></div>
 	<div id="portrait_job_11"></div>
 	<div id="job_11"><!--img src="img/titles/head_ger.png" alt="Head Germany" /--></div>
-	
+
 	<div id="portrait_12"></div>
 	<div id="portrait_job_12"></div>
 	<div id="job_12"><!--img src="img/titles/director.png" alt="Director" /--></div>
-	
+
 	<div id="portrait_13"></div>
 	<div id="portrait_job_13"></div>
 	<div id="job_13"><!--img src="img/titles/head_ita.png" alt="Head Italy" /--></div>
-	
+
 	<div id="portrait_14"></div>
 	<div id="portrait_job_14"></div>
 	<div id="job_14"><!--img src="img/titles/pm_uk.png" alt="Project Manager UK" /--></div>
-	
+
 	<div id="portrait_15"></div>
 	<div id="portrait_job_15"></div>
 	<div id="job_15"><!--img src="img/titles/head_col.png" alt="Head Cologne" /--></div>
-	
+
 	<div id="portrait_16"></div>
 	<div id="portrait_job_16"></div>
 	<div id="job_16"><!--img src="img/titles/head_muc.png" alt="Head Munich" /--></div>
-	
+
 	<div id="portrait_17"></div>
 	<div id="portrait_job_17"></div>
 	<div id="job_17"><!--img src="img/titles/head_cru.png" alt="Head Cruise" /--></div>
-	
+
 	<div id="portrait_18"></div>
 	<div id="portrait_job_18"></div>
 	<div id="job_18"><!--img src="img/titles/buis_dev.png" alt="Business Development" /--></div>
-	
+
 	<div id="portrait_19"></div>
 	<div id="portrait_job_19"></div>
 	<div id="job_19"><!--img src="img/titles/pm_fra.png" alt="Project Management France" /--></div>
-	
+
 	<div id="portrait_20"></div>
 	<div id="portrait_job_20"></div>
 	<div id="job_20"><!--img src="img/titles/head_lat.png" alt="Head Latin America" /--></div>
-		
+
     </div>
 
     <div id="link_to_website">

@@ -10,8 +10,10 @@ function is_email_valid($email)
 	return $isValid;
 }
 
-function send_mail($data, $to="ilike@dmcgermany.de", $from="ilike@dmcgermany.de")
+function send_mail($data, $to="i-like@dmcgermany.de", $from="i-like@dmcgermany.de")
 {
+	// Test Email
+	//$to = "dan.hachenberger@dmcgermany.de";
 	$mime_boundary = "------------010602040306020006000807";
 
 	$headers = "From: NEWSLETTER GAME <${from}>\n"
@@ -22,16 +24,16 @@ function send_mail($data, $to="ilike@dmcgermany.de", $from="ilike@dmcgermany.de"
 	. "Content-Transfer-Encoding: 7bit\n\n";
 
 
-	foreach ($data as $key => $value)
-			$message .= $key + " : " + $value + "\n";
-
+	$message = "";
+	foreach ($data as $key => $value){
+			$message .= $key . " : " . $value . "\n";
+	}
 	$body = "This is a multi-part message in MIME format.\n"
 	. "--${mime_boundary}\n"
 	. "Content-Type: text/plain; charset=\"UTF-8\"\n"
 	. "Content-Transfer-Encoding: 7bit\n\n"
 	. $message . "\n"
 	. "--${mime_boundary}\n";
-
 
 	return @mail($to, "New Newsletter Game Submission", $body, $headers);
 }
