@@ -1,7 +1,9 @@
 <?php
+header("Content-Type: text/html; charset=utf-8");
+	global $ready;
+	$ready = false;
+	// Send email with POST data
 	include("php/mail.php");
-
-	header("Content-Type: text/html; charset=utf-8");
 ?>
 
 
@@ -20,6 +22,12 @@
     <script type="text/javascript" src="js/dragdrop.js"></script>
     <!-- other js code -->
     <script type="text/javascript" src="js/general.js"></script>
+
+	<!-- stuff to be done after for was submitted -->
+	<?php
+    if ($ready)
+    	echo '<script type="text/javascript" src="js/action.js"></script>';
+	?>
 
 </head>
 
@@ -41,9 +49,7 @@
 	</div>
     </div>
 
-    <div id="game_field" onmousedown="javascript:jumpTo('hook_game_field');">
-	<a name="hook_game_field">&nbsp;</a>
-
+    <div id="game_field" onmousedown="javascript:scrollTo('#game_field');">
 
 	<div id="portrait_1"></div>
 	<div id="portrait_job_1"></div>
@@ -92,12 +98,12 @@
 
     <div id="participant_form">
 	<div id="formular">
-	<form action="#" method="post">
+	<form action="#" method="post" action="<?= $_SERVER['php_self']; ?>" >
 	<fieldset>
-	    <span class="short">Name:</span> <input class="long" type="text" name="username" value="" /><br />
-	    <span class="short" >Unternehmen:</span> <input class="long"type="text" name="company" value="" /><br />
-	    <span class="short">E-Mail-Adresse:</span> <input class="long" type="text" name="email" value="" /><br />
-	    <span class="long">Mit diesem C&amp;T&lsquo;ler würde ich gerne Essen gehen:</span> <input class="short" type="text" name="prefered_person" value="" /><br />
+	    <span class="short">Name:</span> <input class="long" type="text" name="name" value="" /> <br />
+	    <span class="short" >Unternehmen:</span> <input class="long" type="text" name="company" value="" /> <br />
+	    <span class="short">E-Mail-Adresse:</span> <input class="long" type="text" name="email" value="" /> <br />
+	    <span class="long">Mit diesem C&amp;T&lsquo;ler würde ich gerne Essen gehen:</span> <input class="short" type="text" name="prefered_person" value="" /> <br />
 		<input id="submit" type="submit" name="action" value="Ja, ich mag gutes Essen - und will gewinnen!"/>
 	</fieldset>
 	</form>
@@ -105,7 +111,7 @@
     </div>
 
     <div id="imex">
-		<p>Wir dr&uuml;cken dir die Daumen f&uuml;r unser gemeinsames Abendessen! Inder Zwischenzeit triff uns doch auf der IMEX! Dieses Jahr findest du uns am <br /> <a id="highlight" href="#">M&uuml;nchen Stand!</a></p>
+		<p>Wir dr&uuml;cken dir die Daumen f&uuml;r unser gemeinsames Abendessen! In der Zwischenzeit triff uns doch auf der IMEX! Dieses Jahr findest du uns am <br /> <a id="highlight" href="#">M&uuml;nchen Stand!</a></p>
     </div>
     <div id="footer">
     <p>
