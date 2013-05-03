@@ -23,6 +23,15 @@ function scrollTo(id){
 	}, 1500);
 }
 
+function solve(){
+	$.each(job2portrait, function(key, value) {
+		animateDropFade($("#"+value).next(), $("#"+key));
+	});
+	
+	scrollTo("#imex");
+	$("#participant_form").hide();
+}
+
 /*
  * check if all jobtitles hav been positioned correctly (correctly means: all
  * divs containing the correct job titles contain exactly 1 element beacuse we
@@ -33,18 +42,15 @@ function scrollTo(id){
 function checkStatus() {
 	var success = true;
 	$.each(job2portrait, function(key, value) {
-		var portrait = $(("#" + value));
-		// success: all divs containing the correct job titles contain exactly 1
-			// element
-			if (portrait.next().children().length != 1)
-				success = false;
-		});
+		// success: all jobs removed
+		if ($("#"+key).length > 0)
+			success = false;
+	});
+	
 	gameSuccess(success);
-	if (success) {
-		$('html, body').animate( {
-			scrollTop : $("#participant_form").offset().top
-		}, 1500);
-	} 
+	
+	if (success)
+		scrollTo("#participant_form");
 }
 
 /**
@@ -58,43 +64,19 @@ function checkStatus() {
  * @return nothing
  */
 function toggleImage(img, is_sw) {
-	var bg = img.css('background-image').split("/").pop();
+	var bg = img.css("background-image").split("/").pop();
 
-	var filename = bg.substring(0, bg.length - 1);
+	var filename = bg.substring(0, bg.length - 2);
 	var filename = filename.replace(".png", "");
 
 	if (is_sw) {
-		filename = "url(\"img/polaroids/" + filename + "_sw.png\")";
-		img.css("background-image", filename);
+		filename = "img/polaroids/" + filename + "_sw.png";
+		img.css("background-image", 'url("' + filename + '")');
 	} else {
-		filename = filename.replace("_sw", "");
-		img.css("background-image", "url(\"img/polaroids/" + filename
-				+ ".png\")");
+		filename = "img/polaroids/" + filename.replace("_sw", "") + ".png";
+		img.css("background-image", 'url("' + filename + '")');
 
 	}
-}
-
-/**
- * will move the dragged image to the new position
- * 
- * @param dropArea
- *            the div to prepend the img at
- * @param dragged
- *            the image being dragged
- */
-function animateDropMove(dropArea, dragged) {
-
-	var pos = dropArea.position();
-	var posWidth = dropArea.css('width');
-	var posHeight = dropArea.css('height');
-
-	dragged.animate( {
-		left : pos.left,
-		top : pos.top
-	}, 500, function() {
-		dropArea.prepend(dragged.html());
-		dragged.remove();
-	});
 }
 
 /**
@@ -106,10 +88,10 @@ function animateDropMove(dropArea, dragged) {
  *            the image being dragged
  */
 function animateDropFade(dropArea, dragged) {
-	var content = $("img", dragged).clone();
-	content.hide();
-	dropArea.prepend(content);
-	content.show('slow');
+	dropArea.hide();
+	dropArea.css("background-image", dragged.css("background-image"));
+	dropArea.css("background-repeat","no-repeat");
+	dropArea.show("fade", {}, 1000);
 	dragged.remove();
 }
 
@@ -152,7 +134,7 @@ function InitDragAndDrop(job_id, portrait_id) {
 				animateDropFade($(this).next(), ui.draggable);
 				checkStatus();
 			} else {
-				  $(this).effect("shake", { times:1, distance: 5 }, 300);
+				  $(this).effect("shake", { times : 1, distance : 5}, 300);
 			}
 			toggleImage($(this), false);
 		}

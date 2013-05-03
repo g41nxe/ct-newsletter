@@ -54,34 +54,34 @@ header("Content-Type: text/html; charset=utf-8");
 	<div id="portrait_1"></div>
 	<div id="portrait_job_1"></div>
 	<div id="job_1"><!--img src="img/titles/head_usa.png" alt="Head USA" /--></div>
-	
+
 	<div id="portrait_2"></div>
 	<div id="portrait_job_2"></div>
 	<div id="job_2"><!--img src="img/titles/front_office.png" alt="Front Office" /--></div>
-	
+
 	<div id="portrait_3"></div>
 	<div id="portrait_job_3"></div>
 	<div id="job_3"><!--img src="img/titles/head_spa.png" alt="Head Spain &amp; Portugal" /--></div>
 	<div id="portrait_4"></div>
 	<div id="portrait_job_4"></div>
 	<div id="job_4"><!--img src="img/titles/head_fr.png" alt="Head France &amp; Benelux" /--></div>
-	
+
 	<div id="portrait_5"></div>
 	<div id="portrait_job_5"></div>
 	<div id="job_5"><!--img src="img/titles/head_uk.png" alt="Head UK" /--></div>
-	
+
 	<div id="portrait_6"></div>
 	<div id="portrait_job_6"></div>
 	<div id="job_6"><!--img src="img/titles/head_fra.png" alt="Head Frankfurt" /--></div>
-	
+
 	<div id="portrait_7"></div>
 	<div id="portrait_job_7"></div>
 	<div id="job_7"><!--img src="img/titles/sales.png" alt="Sales France &amp; Belgium" /--></div>
-	
+
 	<div id="portrait_8"></div>
 	<div id="portrait_job_8"></div>
 	<div id="job_8"><!--img src="img/titles/east_eu.png" alt="Head Eastern Europe" /--></div>
-	
+
     </div>
 
     <div id="link_to_website">
@@ -98,7 +98,7 @@ header("Content-Type: text/html; charset=utf-8");
 
     <div id="participant_form">
 	<div id="formular">
-	<form action="#" method="post" action="<?= $_SERVER['php_self']; ?>" >
+	<form method="post" action="<?= $_SERVER['php_self']; ?>" >
 	<fieldset>
 	    <span class="short">Name:</span> <input class="long" type="text" name="name" value="" /> <br />
 	    <span class="short" >Unternehmen:</span> <input class="long" type="text" name="company" value="" /> <br />
@@ -111,7 +111,7 @@ header("Content-Type: text/html; charset=utf-8");
     </div>
 
     <div id="imex">
-		<p>Wir dr&uuml;cken dir die Daumen f&uuml;r unser gemeinsames Abendessen! In der Zwischenzeit triff uns doch auf der IMEX! Dieses Jahr findest du uns am <br /> <a id="highlight" href="#">M&uuml;nchen Stand!</a></p>
+		<p>Wir dr&uuml;cken dir die Daumen f&uuml;r unser gemeinsames Abendessen! In der Zwischenzeit triff uns doch auf der IMEX! Dieses Jahr findest du uns am <br /> <a id="highlight" href="https://portal.imex-frankfurt.com/vex-2013/exweb.php?back=vexsearch.php$$exhibname=conference%20&%20touring$standnum=$action=specific&uid=258472">M&uuml;nchen Stand!</a></p>
     </div>
     <div id="footer">
     <p>
