@@ -30,7 +30,7 @@ function checkStatus() {
 		var portrait = $(("#" + value));
 		// success: all divs containing the correct job titles contain exactly 1
 			// element
-			if (portrait.next().length != 1)
+			if (portrait.next().children().length != 1)
 				success = false;
 		});
 	gameSuccess(success);
@@ -141,6 +141,7 @@ function InitDragAndDrop(job_id, portrait_id) {
 				animateDropFade($(this).next(), ui.draggable);
 				checkStatus();
 			}
+			toggleImage($(this), false);
 		}
 	});
 }
