@@ -148,7 +148,7 @@ header("Content-Type: text/html; charset=utf-8");
 
     <div id="participant_form">
 	<div id="formular">
-	<form method="post" action="<?= $_SERVER['php_self']; ?>" >
+	<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
 	<fieldset>
 	    <span class="short">Name:</span> <input class="long" type="text" name="name" value="" /> <br />
 	    <span class="short" >Unternehmen:</span> <input class="long" type="text" name="company" value="" /> <br />
