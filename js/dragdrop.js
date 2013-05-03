@@ -66,8 +66,10 @@ function checkStatus() {
 function toggleImage(img, is_sw) {
 	var bg = img.css("background-image").split("/").pop();
 
-	var filename = bg.substring(0, bg.length - 2);
+	var filename = bg.substring(0, bg.length);
 	var filename = filename.replace(".png", "");
+	var filename = filename.replace('"', "");
+	var filename = filename.replace(")", "");
 
 	if (is_sw) {
 		filename = "img/polaroids/" + filename + "_sw.png";
