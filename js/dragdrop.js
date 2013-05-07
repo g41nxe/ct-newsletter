@@ -92,7 +92,6 @@ function toggleImage(img, is_sw) {
 	} else {
 		filename = "img/polaroids/" + filename.replace("_sw", "") + ".png";
 		img.css("background-image", 'url("' + filename + '")');
-
 	}
 }
 
@@ -107,9 +106,14 @@ function toggleImage(img, is_sw) {
 function animateDropFade(dropArea, dragged) {
 	dropArea.hide();
 	dropArea.css("background-image", dragged.css("background-image"));
-	dropArea.css("background-repeat","no-repeat");
-	dropArea.show("fade", {}, 1000);
+	dropArea.css("background-repeat", "no-repeat");
 	dragged.remove();
+	
+	dropArea.prev().fadeTo('medium', 0.5, function(){
+		toggleImage(dropArea.prev(), false);
+		dropArea.show("drop", {direction: "right", mode: "show"}, 500);
+	}).delay(0).fadeTo('medium', 1);
+	
 }
 
 /**
@@ -152,8 +156,8 @@ function InitDragAndDrop(job_id, portrait_id) {
 				checkStatus();
 			} else {
 				  $(this).effect("shake", { times : 1, distance : 5}, 300);
+				  toggleImage($(this), false);
 			}
-			toggleImage($(this), false);
 		}
 	});
 }
