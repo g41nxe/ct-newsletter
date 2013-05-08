@@ -14,7 +14,7 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_1
 {
     position: absolute;
-    top: 65px;
+    top: 66px;
     left: -36px;
     background-image: url("../../img/polaroids_uk/nikolas.png");
     background-repeat: no-repeat;
@@ -26,10 +26,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_1
 {
     position: absolute;
-    top: 225px;
-    left: 22px;
-    width: 92px;
-    height: 32px;
+    top: 242px;
+    left: -2px;
+    width: 135px;
+    height: 57px;
     display:block;
     z-index: 1000;
 }
@@ -37,12 +37,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_1
 {
     position: absolute;
-    top: 139px;
-    left: 272px;
-    /**/background-image: url("../../img/titles/head_usa.png");
+    top: 287px;
+    left: 286px;
+    /**/background-image: url("../../img/titles_uk/fixer.png");
     background-repeat: no-repeat;
-    width: 92px;
-    height: 32px;
+    width: 135px;
+    height: 57px;
     display:block;
     z-index: 1000;
 }
@@ -52,8 +52,8 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_2
 {
     position: absolute;
-    top: 72px;
-    left: 97px;
+    top: 82px;
+    left: 114px;
     background-image: url("../../img/polaroids_uk/christina.png");
     background-repeat: no-repeat;
     width: 167px;
@@ -64,10 +64,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_2
 {
     position: absolute;
-    top: 235px;
-    left: 153px;
-    width: 84px;
-    height: 23px;
+    top: 245px;
+    left: 159px;
+    width: 113px;
+    height: 43px;
     display:block;
     z-index: 1000;
 }
@@ -75,12 +75,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_2
 {
     position: absolute;
-    top: 84px;
-    left: 459px;
-    /**/background-image: url("../../img/titles/front_office.png");
+    top: 490px;
+    left: 420px;
+    /**/background-image: url("../../img/titles_uk/guru.png");
     background-repeat: no-repeat;
-    width: 84px;
-    height: 23px;
+    width: 113px;
+    height: 43px;
     display:block;
     z-index: 1000;
 }
@@ -90,8 +90,8 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_3
 {
     position: absolute;
-    top: 249px;
-    left: -36px;
+    top: 275px;
+    left: -27px;
     background-image: url("../../img/polaroids_uk/bas.png");
     background-repeat: no-repeat;
     width: 167px;
@@ -102,10 +102,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_3
 {
     position: absolute;
-    top: 412px;
-    left: 14px;
-    width: 113px;
-    height: 45px;
+    top: 434px;
+    left: 22px;
+    width: 98px;
+    height: 55px;
     display:block;
     z-index: 1000;
 }
@@ -113,12 +113,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_3
 {
     position: absolute;
-    top: 199px;
-    left: 260px;
-    /**/background-image: url("../../img/titles/head_spa.png");
+    top: 116px;
+    left: 272px;
+    /**/background-image: url("../../img/titles_uk/setter.png");
     background-repeat: no-repeat;
-    width: 113px;
-    height: 45px;
+    width: 98px;
+    height: 55px;
     display:block;
     z-index: 1000;
 }
@@ -128,8 +128,8 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_4
 {
     position: absolute;
-    top: 253px;
-    left: 111px;
+    top: 293px;
+    left: 126px;
     background-image: url("../../img/polaroids_uk/ega.png");
     background-repeat: no-repeat;
     width: 167px;
@@ -140,10 +140,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_4
 {
     position: absolute;
-    top: 414px;
-    left: 145px;
-    width: 122px;
-    height: 42px;
+    top: 407px;
+    left: 156px;
+    width: 145px;
+    height: 62px;
     display:block;
     z-index: 1000;
 }
@@ -151,12 +151,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_4
 {
     position: absolute;
-    top: 434px;
-    left: 416px;
-    /**/background-image: url("../../img/titles/head_fr.png");
+    top: 105px;
+    left: 390px;
+    /**/background-image: url("../../img/titles_uk/wizard.png");
     background-repeat: no-repeat;
-    width: 122px;
-    height: 42px;
+    width: 145px;
+    height: 62px;
     display:block;
     z-index: 1000;
 }
@@ -166,8 +166,8 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_5
 {
     position: absolute;
-    top: 453px;
-    left: -23px;
+    top: 506px;
+    left: -18px;
     background-image: url("../../img/polaroids_uk/peter.png");
     background-repeat: no-repeat;
     width: 167px;
@@ -178,10 +178,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_5
 {
     position: absolute;
-    top: 619px;
-    left: 32px;
-    width: 81px;
-    height: 28px;
+    top: 661px;
+    left: 14px;
+    width: 126px;
+    height: 45px;
     display:block;
     z-index: 1000;
 }
@@ -189,12 +189,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_5
 {
     position: absolute;
-    top: 345px;
-    left: 290px;
-    /**/background-image: url("../../img/titles/head_uk.png");
+    top: 353px;
+    left: 281px;
+    /**/background-image: url("../../img/titles_uk/boss.png");
     background-repeat: no-repeat;
-    width: 81px;
-    height: 28px;
+    width: 126px;
+    height: 45px;
     display:block;
     z-index: 1000;
 }
@@ -204,8 +204,8 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_6
 {
     position: absolute;
-    top: 444px;
-    left: 116px;
+    top: 502px;
+    left: 131px;
     background-image: url("../../img/polaroids_uk/eva.png");
     background-repeat: no-repeat;
     width: 167px;
@@ -216,10 +216,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_6
 {
     position: absolute;
-    top: 597px;
-    left: 156px;
-    width: 113px;
-    height: 39px;
+    top: 663px;
+    left: 179px;
+    width: 115px;
+    height: 54px;
     display:block;
     z-index: 1000;
 }
@@ -227,12 +227,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_6
 {
     position: absolute;
-    top: 479px;
-    left: 282px;
+    top: 376px;
+    left: 385px;
     /**/background-image: url("../../img/titles/head_fra.png");
     background-repeat: no-repeat;
-    width: 113px;
-    height: 39px;
+    width: 115px;
+    height: 54px;
     display:block;
     z-index: 1000;
 }
