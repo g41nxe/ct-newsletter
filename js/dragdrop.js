@@ -45,6 +45,7 @@ function solve(){
 	
 	scrollTo("#imex");
 	$("#participant_form").hide();
+	$("#on_success").show();
 }
 
 /*
@@ -65,7 +66,7 @@ function checkStatus() {
 	gameSuccess(success);
 	
 	if (success)
-		scrollTo("#participant_form");
+		scrollTo("#on_success");
 }
 
 /**
