@@ -30,6 +30,14 @@ var job2portrait = {
 	
 };
 
+/**
+ * path to polaroids folder 
+ * used by toggleImage function 
+ * 
+ * DE: var path_to_polaroids = "img/polaroids/";
+ */
+var path_to_polaroids = "img/polaroids_uk/";
+
 var portrait2job = {};
 
 function scrollTo(id){
@@ -88,10 +96,10 @@ function toggleImage(img, is_sw) {
 	var filename = filename.replace(")", "");
 
 	if (is_sw) {
-		filename = "img/polaroids/" + filename + "_sw.png";
+		filename = path_to_polaroids + filename + "_sw.png";
 		img.css("background-image", 'url("' + filename + '")');
 	} else {
-		filename = "img/polaroids/" + filename.replace("_sw", "") + ".png";
+		filename = path_to_polaroids + filename.replace("_sw", "") + ".png";
 		img.css("background-image", 'url("' + filename + '")');
 	}
 }
