@@ -19,6 +19,15 @@ header("Content-Type: text/html; charset=utf-8");
     <script type="text/javascript" src="js/jquery/jquery-2.0.0.min.js"></script>
     <script type="text/javascript" src="js/jquery/jquery-ui-1.10.2.custom.min.js"></script>
     <!-- game code -->
+    <script type="text/javascript">
+	/**
+	 * this var will be used in dragdrop.js
+	 * so there is no need for another *.js file for different versions
+	 * 
+	 * @type String
+	 */
+	var get_path_to_polaroids_from_index = "img/polaroids/";
+    </script>
     <script type="text/javascript" src="js/dragdrop.js"></script>
     <!-- other js code -->
     <script type="text/javascript" src="js/general.js"></script>

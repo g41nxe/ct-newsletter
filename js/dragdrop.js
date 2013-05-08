@@ -36,7 +36,13 @@ var job2portrait = {
  * 
  * DE: var path_to_polaroids = "img/polaroids/";
  */
-var path_to_polaroids = "img/polaroids_uk/";
+/**
+ * 
+ * @type String
+ * Using an other var from the index_*.php file
+ * OLD: var path_to_polaroids = "img/polaroids_uk/";
+ */
+var path_to_polaroids = get_path_to_polaroids_from_index;
 
 var portrait2job = {};
 
