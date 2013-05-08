@@ -118,26 +118,6 @@ header("Content-Type: text/html; charset=utf-8");
 	<div id="portrait_job_13"></div>
 	<div id="job_13"><!--img src="img/titles/head_ita.png" alt="The Frankfurter" /--></div>
 
-	<div id="portrait_14"></div>
-	<div id="portrait_job_14"></div>
-	<div id="job_14"><!--img src="img/titles/pm_uk.png" alt="The rep - your gateway to Germany" /--></div>
-
-	<div id="portrait_15"></div>
-	<div id="portrait_job_15"></div>
-	<div id="job_15"><!--img src="img/titles/head_col.png" alt="The real Berliner" /--></div>
-
-	<div id="portrait_16"></div>
-	<div id="portrait_job_16"></div>
-	<div id="job_16"><!--img src="img/titles/head_muc.png" alt="The Hamburger" /--></div>
-
-	<div id="portrait_17"></div>
-	<div id="portrait_job_17"></div>
-	<div id="job_17"><!--img src="img/titles/head_cru.png" alt="The design dude" /--></div>
-
-	<div id="portrait_18"></div>
-	<div id="portrait_job_18"></div>
-	<div id="job_18"><!--img src="img/titles/buis_dev.png" alt="THe mover and shaker" /--></div>
-
     </div>
 
     <div id="link_to_website">
