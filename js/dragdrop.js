@@ -4,7 +4,7 @@
  * and vice versa
  * 
  */
-var job2portrait = {
+/*var job2portrait = {
 	"job_1" : "portrait_1",
 	"job_2" : "portrait_2",
 	"job_3" : "portrait_3",
@@ -25,10 +25,7 @@ var job2portrait = {
 	"job_18" : "portrait_18",
 	"job_19" : "portrait_19",
 	"job_20" : "portrait_20"
-	
-	
-	
-};
+};*/
 
 /**
  * path to polaroids folder 

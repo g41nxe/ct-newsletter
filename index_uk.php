@@ -20,6 +20,7 @@ header("Content-Type: text/html; charset=utf-8");
     <script type="text/javascript" src="js/jquery/jquery-ui-1.10.2.custom.min.js"></script>
     <!-- game code -->
     <script type="text/javascript">
+	//--------  Configuration for js/dragdrop.js -----------
 	/**
 	 * this var will be used in dragdrop.js
 	 * so there is no need for another *.js file for different versions
@@ -27,6 +28,30 @@ header("Content-Type: text/html; charset=utf-8");
 	 * @type String
 	 */
 	var get_path_to_polaroids_from_index = "img/polaroids_uk/";
+	
+	/**
+	 * Use this Objects as a map of #ids (of divs) containing the 
+	 * job titles to #ids (of divs) containting the portraits 
+	 * and vice versa
+	 * 
+	 * @type Array
+	 */
+	var job2portrait = {
+	    "job_1" : "portrait_1",
+	    "job_2" : "portrait_2",
+	    "job_3" : "portrait_3",
+	    "job_4" : "portrait_4",
+	    "job_5" : "portrait_5",
+	    "job_6" : "portrait_6",
+	    "job_7" : "portrait_7",
+	    "job_8" : "portrait_8",
+	    "job_9" : "portrait_9",
+	    "job_10" : "portrait_10",
+	    "job_11" : "portrait_11",
+	    "job_12" : "portrait_12",
+	    "job_13" : "portrait_13"
+	};
+
     </script>
     <script type="text/javascript" src="js/dragdrop.js"></script>
     <!-- other js code -->
