@@ -1,6 +1,6 @@
 <?php
 // Konfiguriere, welche Suffixe erlaubt sind.
-$allowed_files = array('de', 'uk');
+$allowed_suffixes = array('de', 'uk');
 
 // Gibt es ueberhaupt Elemente im GET-Array?
 if(!empty($_GET))
@@ -19,7 +19,7 @@ if(!empty($_GET))
     }
     
     // gibt es den Suffix in unserem Array?
-    if( in_array($suffix, $allowed_files) )
+    if( in_array($suffix, $allowed_suffixes) )
     {
 	require_once './index_' . $suffix . '.php';
 	
