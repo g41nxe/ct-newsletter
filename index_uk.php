@@ -90,55 +90,55 @@ header("Content-Type: text/html; charset=utf-8");
 
 	<div id="portrait_1"></div>
 	<div id="portrait_job_1"></div>
-	<div id="job_1"><!--img src="img/titles/head_usa.png" alt="The event fixer" /--></div>
+	<div id="job_1"><!--img src="img/titles_uk/fixer.png" alt="The event fixer" /--></div>
 
 	<div id="portrait_2"></div>
 	<div id="portrait_job_2"></div>
-	<div id="job_2"><!--img src="img/titles/front_office.png" alt="The UK guru" /--></div>
+	<div id="job_2"><!--img src="img/titles_uk/guru.png" alt="The UK guru" /--></div>
 
 	<div id="portrait_3"></div>
 	<div id="portrait_job_3"></div>
-	<div id="job_3"><!--img src="img/titles/head_spa.png" alt="The trend setter" /--></div>
+	<div id="job_3"><!--img src="img/titles_uk/setter.png" alt="The trend setter" /--></div>
 	
 	<div id="portrait_4"></div>
 	<div id="portrait_job_4"></div>
-	<div id="job_4"><!--img src="img/titles/head_fr.png" alt="The Munich congress wizard" /--></div>
+	<div id="job_4"><!--img src="img/titles_uk/wizard.png" alt="The Munich congress wizard" /--></div>
 
 	<div id="portrait_5"></div>
 	<div id="portrait_job_5"></div>
-	<div id="job_5"><!--img src="img/titles/head_uk.png" alt="the boss man" /--></div>
+	<div id="job_5"><!--img src="img/titles_uk/boss.png" alt="The boss man" /--></div>
 
 	<div id="portrait_6"></div>
 	<div id="portrait_job_6"></div>
-	<div id="job_6"><!--img src="img/titles/head_fra.png" alt="The cologne contact" /--></div>
+	<div id="job_6"><!--img src="img/titles_uk/cologne.png" alt="The Cologne contact" /--></div>
 	
 	<div id="portrait_7"></div>
 	<div id="portrait_job_7"></div>
-	<div id="job_7"><!--img src="img/titles/head_fra.png" alt="The cologne contact" /--></div>
+	<div id="job_7"><!--img src="img/titles_uk/london.png" alt="The London contact" /--></div>
 	
 	<div id="portrait_8"></div>
 	<div id="portrait_job_8"></div>
-	<div id="job_8"><!--img src="img/titles/head_fra.png" alt="The cologne contact" /--></div>
+	<div id="job_8"><!--img src="img/titles_uk/frankfurter.png" alt="The Frankfurter" /--></div>
 
 	<div id="portrait_9"></div>
 	<div id="portrait_job_9"></div>
-	<div id="job_9"><!--img src="img/titles/head_fra.png" alt="The London contact" /--></div>
+	<div id="job_9"><!--img src="img/titles_uk/rep.png" alt="The rep-your gateway to Germany" /--></div>
 	
 	<div id="portrait_10"></div>
 	<div id="portrait_job_10"></div>
-	<div id="job_10"><!--img src="img/titles/head_fra.png" alt="The cologne contact" /--></div>
+	<div id="job_10"><!--img src="img/titles_uk/berliner.png" alt="The real Berliner" /--></div>
 	
 	<div id="portrait_11"></div>
 	<div id="portrait_job_11"></div>
-	<div id="job_11"><!--img src="img/titles/head_fra.png" alt="The cologne contact" /--></div>
+	<div id="job_11"><!--img src="img/titles_uk/hamburger.png" alt="The Hamburger" /--></div>
 	
 	<div id="portrait_12"></div>
 	<div id="portrait_job_12"></div>
-	<div id="job_12"><!--img src="img/titles/head_fra.png" alt="The cologne contact" /--></div>
+	<div id="job_12"><!--img src="img/titles_uk/dude.png" alt="The design dude" /--></div>
 
 	<div id="portrait_13"></div>
 	<div id="portrait_job_13"></div>
-	<div id="job_13"><!--img src="img/titles/head_ita.png" alt="The Frankfurter" /--></div>
+	<div id="job_13"><!--img src="img/titles_uk/mover.png" alt="The mover and shaker" /--></div>
 
     </div>
 
@@ -181,6 +181,22 @@ header("Content-Type: text/html; charset=utf-8");
 
 </div><!-- END: div-main -->
 
+<!-- preloading images -->
+<div style="position:absolute; top:1px; left:-1000px; height: 1px; width: 1px;">
+    <img src="img/polaroids_uk/bas_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_uk/christina_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_uk/ega_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_uk/emily_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_uk/eva_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_uk/jane_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_uk/kieran_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_uk/marko_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_uk/nikolas_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_uk/pat_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_uk/peter_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_uk/to_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_uk/tobi_sw.png" width="1" height="1" alt="" />
+</div>
 
 </body>
 </html>
