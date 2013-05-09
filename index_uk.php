@@ -84,8 +84,9 @@ header("Content-Type: text/html; charset=utf-8");
 	    <span>Alte Hasen und neue Gesichter bei C&amp;T. Wer ist wer - und wer macht was?</span><br /><b>Spiel mit uns und gewinne ein Abendessen mit einem C&amp;T&lsquo;ler deiner Wahl!</b>
 	</div>
     </div>
-
-    <div id="game_field" onmousedown="javascript:scrollTo('#game_field');">
+    
+    <!-- fixing the height in style-attribute -->
+    <div id="game_field" style="height: 800px;" onmousedown="javascript:scrollTo('#game_field');">
 
 	<div id="portrait_1"></div>
 	<div id="portrait_job_1"></div>
@@ -98,6 +99,7 @@ header("Content-Type: text/html; charset=utf-8");
 	<div id="portrait_3"></div>
 	<div id="portrait_job_3"></div>
 	<div id="job_3"><!--img src="img/titles/head_spa.png" alt="The trend setter" /--></div>
+	
 	<div id="portrait_4"></div>
 	<div id="portrait_job_4"></div>
 	<div id="job_4"><!--img src="img/titles/head_fr.png" alt="The Munich congress wizard" /--></div>
@@ -109,10 +111,30 @@ header("Content-Type: text/html; charset=utf-8");
 	<div id="portrait_6"></div>
 	<div id="portrait_job_6"></div>
 	<div id="job_6"><!--img src="img/titles/head_fra.png" alt="The cologne contact" /--></div>
+	
+	<div id="portrait_7"></div>
+	<div id="portrait_job_7"></div>
+	<div id="job_7"><!--img src="img/titles/head_fra.png" alt="The cologne contact" /--></div>
+	
+	<div id="portrait_8"></div>
+	<div id="portrait_job_8"></div>
+	<div id="job_8"><!--img src="img/titles/head_fra.png" alt="The cologne contact" /--></div>
 
 	<div id="portrait_9"></div>
-	<div id="portrait_job_6"></div>
-	<div id="job_6"><!--img src="img/titles/head_fra.png" alt="The London contact" /--></div>
+	<div id="portrait_job_9"></div>
+	<div id="job_9"><!--img src="img/titles/head_fra.png" alt="The London contact" /--></div>
+	
+	<div id="portrait_10"></div>
+	<div id="portrait_job_10"></div>
+	<div id="job_10"><!--img src="img/titles/head_fra.png" alt="The cologne contact" /--></div>
+	
+	<div id="portrait_11"></div>
+	<div id="portrait_job_11"></div>
+	<div id="job_11"><!--img src="img/titles/head_fra.png" alt="The cologne contact" /--></div>
+	
+	<div id="portrait_12"></div>
+	<div id="portrait_job_12"></div>
+	<div id="job_12"><!--img src="img/titles/head_fra.png" alt="The cologne contact" /--></div>
 
 	<div id="portrait_13"></div>
 	<div id="portrait_job_13"></div>

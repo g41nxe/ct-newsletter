@@ -26,8 +26,8 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_1
 {
     position: absolute;
-    top: 242px;
-    left: -2px;
+    top: 216px;
+    left: 2px;
     width: 135px;
     height: 57px;
     display:block;
@@ -64,7 +64,7 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_2
 {
     position: absolute;
-    top: 245px;
+    top: 240px;
     left: 159px;
     width: 113px;
     height: 43px;
@@ -140,7 +140,7 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_4
 {
     position: absolute;
-    top: 407px;
+    top: 448px;
     left: 156px;
     width: 145px;
     height: 62px;
@@ -179,7 +179,7 @@ und die Jobtitel selbst definiert.
 {
     position: absolute;
     top: 661px;
-    left: 14px;
+    left: 20px;
     width: 126px;
     height: 45px;
     display:block;
@@ -217,7 +217,7 @@ und die Jobtitel selbst definiert.
 {
     position: absolute;
     top: 663px;
-    left: 179px;
+    left: 173px;
     width: 115px;
     height: 54px;
     display:block;
@@ -229,7 +229,7 @@ und die Jobtitel selbst definiert.
     position: absolute;
     top: 376px;
     left: 385px;
-    /**/background-image: url("../../img/titles/head_fra.png");
+    /**/background-image: url("../../img/titles_uk/cologne.png");
     background-repeat: no-repeat;
     width: 115px;
     height: 54px;
@@ -242,9 +242,9 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_7
 {
     position: absolute;
-    top: 642px;
-    left: -14px;
-    background-image: url("../../img/polaroids_uk/BaGa.png");
+    top: 542px;
+    left: 332px;
+    background-image: url("../../img/polaroids_uk/kieran.png");
     background-repeat: no-repeat;
     width: 167px;
     height: 182px;
@@ -254,10 +254,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_7
 {
     position: absolute;
-    top: 804px;
-    left: 14px;
-    width: 143px;
-    height: 57px;
+    top: 706px;
+    left: 368px;
+    width: 104px;
+    height: 42px;
     display:block;
     z-index: 1000;
 }
@@ -265,12 +265,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_7
 {
     position: absolute;
-    top: 317px;
-    left: 416px;
-    /**/background-image: url("../../img/titles/sales.png");
+    top: 239px;
+    left: 274px;
+    /**/background-image: url("../../img/titles_uk/london.png");
     background-repeat: no-repeat;
-    width: 143px;
-    height: 57px;
+    width: 104px;
+    height: 42px;
     display:block;
     z-index: 1000;
 }
@@ -280,9 +280,9 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_8
 {
     position: absolute;
-    top: 625px;
-    left: 122px;
-    background-image: url("../../img/polaroids_uk/Larisa.png");
+    top: 61px;
+    left: 519px;
+    background-image: url("../../img/polaroids_uk/pat.png");
     background-repeat: no-repeat;
     width: 167px;
     height: 182px;
@@ -292,10 +292,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_8
 {
     position: absolute;
-    top: 791px;
-    left: 163px;
-    width: 108px;
-    height: 24px;
+    top: 212px;
+    left: 511px;
+    width: 147px;
+    height: 59px;
     display:block;
     z-index: 1000;
 }
@@ -303,12 +303,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_8
 {
     position: absolute;
-    top: 303px;
-    left: 270px;
-    /**/background-image: url("../../img/titles/east_eu.png");
+    top: 322px;
+    left: 390px;
+    /**/background-image: url("../../img/titles_uk/frankfurter.png");
     background-repeat: no-repeat;
-    width: 108px;
-    height: 24px;
+    width: 147px;
+    height: 59px;
     display:block;
     z-index: 1000;
 }
@@ -318,9 +318,9 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_9
 {
     position: absolute;
-    top: 525px;
-    left: 260px;
-    background-image: url("../../img/polaroids_uk/kieran.png");
+    top: 48px;
+    left: 681px;
+    background-image: url("../../img/polaroids_uk/jane.png");
     background-repeat: no-repeat;
     width: 167px;
     height: 182px;
@@ -330,10 +330,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_9
 {
     position: absolute;
-    top: 680px;
-    left: 320px;
-    width: 61px;
-    height: 27px;
+    top: 200px;
+    left: 662px;
+    width: 172px;
+    height: 77px;
     display:block;
     z-index: 1000;
 }
@@ -341,12 +341,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_9
 {
     position: absolute;
-    top: 380px;
-    left: 361px;
-    /**/background-image: url("../../img/titles/sports.png");
+    top: 171px;
+    left: 320px;
+    /**/background-image: url("../../img/titles_uk/rep.png");
     background-repeat: no-repeat;
-    width: 61px;
-    height: 27px;
+    width: 172px;
+    height: 77px;
     display:block;
     z-index: 1000;
 }
@@ -356,9 +356,9 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_10
 {
     position: absolute;
-    top: 693px;
-    left: 255px;
-    background-image: url("../../img/polaroids_uk/Kerstin.png");
+    top: 284px;
+    left: 524px;
+    background-image: url("../../img/polaroids_uk/emily.png");
     background-repeat: no-repeat;
     width: 167px;
     height: 182px;
@@ -368,10 +368,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_10
 {
     position: absolute;
-    top: 855px;
-    left: 288px;
-    width: 115px;
-    height: 24px;
+    top: 440px;
+    left: 520px;
+    width: 150px;
+    height: 60px;
     display:block;
     z-index: 1000;
 }
@@ -379,12 +379,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_10
 {
     position: absolute;
-    top: 141px;
-    left: 389px;
-    /**/background-image: url("../../img/titles/head_scan.png");
+    top: 425px;
+    left: 367px;
+    /**/background-image: url("../../img/titles_uk/berliner.png");
     background-repeat: no-repeat;
-    width: 115px;
-    height: 24px;
+    width: 150px;
+    height: 60px;
     display:block;
     z-index: 1000;
 }
@@ -394,9 +394,9 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_11
 {
     position: absolute;
-    top: 486px;
-    left: 411px;
-    background-image: url("../../img/polaroids_uk/Corina.png");
+    top: 269px;
+    left: 677px;
+    background-image: url("../../img/polaroids_uk/tobi.png");
     background-repeat: no-repeat;
     width: 167px;
     height: 182px;
@@ -406,10 +406,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_11
 {
     position: absolute;
-    top: 645px;
-    left: 436px;
-    width: 116px;
-    height: 26px;
+    top: 425px;
+    left: 674px;
+    width: 147px;
+    height: 50px;
     display:block;
     z-index: 1000;
 }
@@ -417,12 +417,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_11
 {
     position: absolute;
-    top: 179px;
-    left: 373px;
-    /**/background-image: url("../../img/titles/head_ger.png");
+    top: 447px;
+    left: 310px;
+    /**/background-image: url("../../img/titles_uk/hamburger.png");
     background-repeat: no-repeat;
-    width: 116px;
-    height: 26px;
+    width: 147px;
+    height: 50px;
     display:block;
     z-index: 1000;
 }
@@ -432,9 +432,9 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_12
 {
     position: absolute;
-    top: 668px;
-    left: 392px;
-    background-image: url("../../img/polaroids_uk/Peter.png");
+    top: 510px;
+    left: 520px;
+    background-image: url("../../img/polaroids_uk/to.png");
     background-repeat: no-repeat;
     width: 167px;
     height: 182px;
@@ -444,10 +444,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_12
 {
     position: absolute;
-    top: 830px;
-    left: 435px;
-    width: 78px;
-    height: 18px;
+    top: 667px;
+    left: 517px;
+    width: 145px;
+    height: 48px;
     display:block;
     z-index: 1000;
 }
@@ -455,12 +455,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_12
 {
     position: absolute;
-    top: 299px;
-    left: 397px;
-    /**/background-image: url("../../img/titles/director.png");
+    top: 252px;
+    left: 382px;
+    /**/background-image: url("../../img/titles_uk/dude.png");
     background-repeat: no-repeat;
-    width: 78px;
-    height: 18px;
+    width: 145px;
+    height: 48px;
     display:block;
     z-index: 1000;
 }
@@ -470,9 +470,9 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_13
 {
     position: absolute;
-    top: 61px;
-    left: 530px;
-    background-image: url("../../img/polaroids_uk/pat.png");
+    top: 477px;
+    left: 669px;
+    background-image: url("../../img/polaroids_uk/marko.png");
     background-repeat: no-repeat;
     width: 167px;
     height: 182px;
@@ -482,10 +482,10 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_13
 {
     position: absolute;
-    top: 216px;
-    left: 556px;
-    width: 79px;
-    height: 41px;
+    top: 640px;
+    left: 687px;
+    width: 103px;
+    height: 51px;
     display:block;
     z-index: 1000;
 }
@@ -493,278 +493,12 @@ und die Jobtitel selbst definiert.
 #game_field #job_13
 {
     position: absolute;
-    top: 384px;
-    left: 442px;
-    /**/background-image: url("../../img/titles/head_ita.png");
+    top: 487px;
+    left: 304px;
+    /**/background-image: url("../../img/titles_uk/mover.png");
     background-repeat: no-repeat;
-    width: 79px;
-    height: 41px;
-    display:block;
-    z-index: 1000;
-}
-
-
-/* 14 */
-#game_field #portrait_14
-{
-    position: absolute;
-    top: 47px;
-    left: 672px;
-    background-image: url("../../img/polaroids_uk/jane.png");
-    background-repeat: no-repeat;
-    width: 167px;
-    height: 182px;
-    display:block; 
-}
-
-#game_field #portrait_job_14
-{
-    position: absolute;
-    top: 203px;
-    left: 688px;
-    width: 108px;
-    height: 39px;
-    display:block;
-    z-index: 1000;
-}
-
-#game_field #job_14
-{
-    position: absolute;
-    top: 267px;
-    left: 450px;
-    /**/background-image: url("../../img/titles/pm_uk.png");
-    background-repeat: no-repeat;
-    width: 108px;
-    height: 39px;
-    display:block;
-    z-index: 1000;
-}
-
-
-/* 15 */
-#game_field #portrait_15
-{
-    position: absolute;
-    top: 252px;
-    left: 541px;
-    background-image: url("../../img/polaroids_uk/emily.png");
-    background-repeat: no-repeat;
-    width: 167px;
-    height: 182px;
-    display:block; 
-}
-
-#game_field #portrait_job_15
-{
-    position: absolute;
-    top: 405px;
-    left: 544px;
-    width: 122px;
-    height: 43px;
-    display:block;
-    z-index: 1000;
-}
-
-#game_field #job_15
-{
-    position: absolute;
-    top: 92px;
-    left: 354px;
-    /**/background-image: url("../../img/titles/head_col.png");
-    background-repeat: no-repeat;
-    width: 122px;
-    height: 43px;
-    display:block;
-    z-index: 1000;
-}
-
-
-/* 16 */
-#game_field #portrait_16
-{
-    position: absolute;
-    top: 242px;
-    left: 678px;
-    background-image: url("../../img/polaroids_uk/tobi.png");
-    background-repeat: no-repeat;
-    width: 167px;
-    height: 182px;
-    display:block; 
-}
-
-#game_field #portrait_job_16
-{
-    position: absolute;
-    top: 399px;
-    left: 698px;
-    width: 80px;
-    height: 29px;
-    display:block;
-    z-index: 1000;
-}
-
-#game_field #job_16
-{
-    position: absolute;
-    top: 255px;
-    left: 273px;
-    /**/background-image: url("../../img/titles/head_muc.png");
-    background-repeat: no-repeat;
-    width: 80px;
-    height: 29px;
-    display:block;
-    z-index: 1000;
-}
-
-
-/* 17 */
-#game_field #portrait_17
-{
-    position: absolute;
-    top: 437px;
-    left: 544px;
-    background-image: url("../../img/polaroids_uk/to.png");
-    background-repeat: no-repeat;
-    width: 167px;
-    height: 182px;
-    display:block; 
-}
-
-#game_field #portrait_job_17
-{
-    position: absolute;
-    top: 599px;
-    left: 579px;
-    width: 58px;
-    height: 47px;
-    display:block;
-    z-index: 1000;
-}
-
-#game_field #job_17
-{
-    position: absolute;
-    top: 228px;
-    left: 377px;
-    /**/background-image: url("../../img/titles/head_cru.png");
-    background-repeat: no-repeat;
-    width: 58px;
-    height: 47px;
-    display:block;
-    z-index: 1000;
-}
-
-
-/* 18 */
-#game_field #portrait_18
-{
-    position: absolute;
-    top: 429px;
-    left: 674px;
-    background-image: url("../../img/polaroids_uk/marko.png");
-    background-repeat: no-repeat;
-    width: 167px;
-    height: 182px;
-    display:block; 
-}
-
-#game_field #portrait_job_18
-{
-    position: absolute;
-    top: 593px;
-    left: 701px;
-    width: 89px;
-    height: 40px;
-    display:block;
-    z-index: 1000;
-}
-
-#game_field #job_18
-{
-    position: absolute;
-    top: 79px;
-    left: 247px;
-    /**/background-image: url("../../img/titles/buis_dev.png");
-    background-repeat: no-repeat;
-    width: 89px;
-    height: 40px;
-    display:block;
-    z-index: 1000;
-}
-
-
-/* 19 */
-#game_field #portrait_19
-{
-    position: absolute;
-    top: 647px;
-    left: 525px;
-    background-image: url("../../img/polaroids_uk/Romy.png");
-    background-repeat: no-repeat;
-    width: 167px;
-    height: 182px;
-    display:block; 
-}
-
-#game_field #portrait_job_19
-{
-    position: absolute;
-    top: 808px;
-    left: 539px;
-    width: 134px;
-    height: 46px;
-    display:block;
-    z-index: 1000;
-}
-
-#game_field #job_19
-{
-    position: absolute;
-    top: 413px;
-    left: 295px;
-    /**/background-image: url("../../img/titles/pm_fra.png");
-    background-repeat: no-repeat;
-    width: 134px;
-    height: 46px;
-    display:block;
-    z-index: 1000;
-}
-
-
-/* 20 */
-#game_field #portrait_20
-{
-    position: absolute;
-    top: 639px;
-    left: 665px;
-    background-image: url("../../img/polaroids_uk/Birgit.png");
-    background-repeat: no-repeat;
-    width: 167px;
-    height: 182px;
-    display:block; 
-}
-
-#game_field #portrait_job_20
-{
-    position: absolute;
-    top: 803px;
-    left: 688px;
-    width: 99px;
-    height: 40px;
-    display:block;
-    z-index: 1000;
-}
-
-#game_field #job_20
-{
-    position: absolute;
-    top: 215px;
-    left: 436px;
-    /**/background-image: url("../../img/titles/head_lat.png");
-    background-repeat: no-repeat;
-    width: 99px;
-    height: 40px;
+    width: 103px;
+    height: 51px;
     display:block;
     z-index: 1000;
 }
