@@ -14,7 +14,7 @@ header("Content-Type: text/html; charset=utf-8");
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="robots" content="noindex,nofollow" />
     <link rel="stylesheet" type="text/css" href="style/css/main_v1.css" />
-    <link rel="stylesheet" type="text/css" href="style/css/additional_de_v1.css" />
+    <link rel="stylesheet" type="text/css" href="style/css/additional_muc_v1.css" />
     <!-- jqery library -->
     <script type="text/javascript" src="js/jquery/jquery-2.0.0.min.js"></script>
     <script type="text/javascript" src="js/jquery/jquery-ui-1.10.2.custom.min.js"></script>
@@ -27,7 +27,7 @@ header("Content-Type: text/html; charset=utf-8");
 	 * 
 	 * @type String
 	 */
-	var get_path_to_polaroids_from_index = "img/polaroids/";
+	var get_path_to_polaroids_from_index = "img/polaroids_muc/";
 	
 	/**
 	 * Use this Objects as a map of #ids (of divs) containing the 
@@ -47,16 +47,7 @@ header("Content-Type: text/html; charset=utf-8");
 	    "job_8" : "portrait_8",
 	    "job_9" : "portrait_9",
 	    "job_10" : "portrait_10",
-	    "job_11" : "portrait_11",
-	    "job_12" : "portrait_12",
-	    "job_13" : "portrait_13",
-	    "job_14" : "portrait_14",
-	    "job_15" : "portrait_15",
-	    "job_16" : "portrait_16",
-	    "job_17" : "portrait_17",
-	    "job_18" : "portrait_18",
-	    "job_19" : "portrait_19",
-	    "job_20" : "portrait_20"
+	    "job_11" : "portrait_11"
 	};
 
     </script>
@@ -92,7 +83,8 @@ header("Content-Type: text/html; charset=utf-8");
 	</div>
     </div>
 
-    <div id="game_field" onmousedown="javascript:scrollTo('#game_field');">
+    <!-- fixing the height in style-attribute -->
+    <div id="game_field" style="height: 720px;" onmousedown="javascript:scrollTo('#game_field');">
 
 	<div id="portrait_1"></div>
 	<div id="portrait_job_1"></div>
@@ -137,42 +129,6 @@ header("Content-Type: text/html; charset=utf-8");
 	<div id="portrait_job_11"></div>
 	<div id="job_11"><!--img src="img/titles/head_ger.png" alt="Head Germany" /--></div>
 
-	<div id="portrait_12"></div>
-	<div id="portrait_job_12"></div>
-	<div id="job_12"><!--img src="img/titles/director.png" alt="Director" /--></div>
-
-	<div id="portrait_13"></div>
-	<div id="portrait_job_13"></div>
-	<div id="job_13"><!--img src="img/titles/head_ita.png" alt="Head Italy" /--></div>
-
-	<div id="portrait_14"></div>
-	<div id="portrait_job_14"></div>
-	<div id="job_14"><!--img src="img/titles/pm_uk.png" alt="Project Manager UK" /--></div>
-
-	<div id="portrait_15"></div>
-	<div id="portrait_job_15"></div>
-	<div id="job_15"><!--img src="img/titles/head_col.png" alt="Head Cologne" /--></div>
-
-	<div id="portrait_16"></div>
-	<div id="portrait_job_16"></div>
-	<div id="job_16"><!--img src="img/titles/head_muc.png" alt="Head Munich" /--></div>
-
-	<div id="portrait_17"></div>
-	<div id="portrait_job_17"></div>
-	<div id="job_17"><!--img src="img/titles/head_cru.png" alt="Head Cruise" /--></div>
-
-	<div id="portrait_18"></div>
-	<div id="portrait_job_18"></div>
-	<div id="job_18"><!--img src="img/titles/buis_dev.png" alt="Business Development" /--></div>
-
-	<div id="portrait_19"></div>
-	<div id="portrait_job_19"></div>
-	<div id="job_19"><!--img src="img/titles/pm_fra.png" alt="Project Management France" /--></div>
-
-	<div id="portrait_20"></div>
-	<div id="portrait_job_20"></div>
-	<div id="job_20"><!--img src="img/titles/head_lat.png" alt="Head Latin America" /--></div>
-
     </div>
 
     <div id="link_to_website">
@@ -211,34 +167,25 @@ header("Content-Type: text/html; charset=utf-8");
     	Conference &amp; Touring is part of:
 	</p>
     </div>
-
-<div style="text-align: center; font-family: Verdana; color:#808080; font-size: 10px; line-height: 10px;">    If you can not see the newsletter, please click <b><a style="color:#808080; text-decoration: none;" href="http://newsletter.dmcgermany.de/?de" target="_blank">here</a></b> for our online version.<br /> If you would like to unsubscribe from this newsletter, please send an E-Mail to<br /><b><a  style="color:#808080; text-decoration: none;" href="mailto:info@dmcgermany.de?subject=Unsubscribtion Newsletter">info@dmcgermany.de</a></b><br /><br />
+    
+<div style="text-align: center; font-family: Verdana; color:#808080; font-size: 10px; line-height: 10px;">    If you can not see the newsletter, please click <b><a style="color:#808080; text-decoration: none;" href="http://newsletter.dmcgermany.de/?muc" target="_blank">here</a></b> for our online version.<br /> If you would like to unsubscribe from this newsletter, please send an E-Mail to<br /><b><a  style="color:#808080; text-decoration: none;" href="mailto:info@dmcgermany.de?subject=Unsubscribtion Newsletter">info@dmcgermany.de</a></b><br /><br />
 </div>
     
 </div><!-- END: div-main -->
 
 <!-- preloading images -->
 <div style="position:absolute; top:1px; left:-1000px; height: 1px; width: 1px;">
-    <img src="img/polaroids/Babe_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/BaGa_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Bea_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Birgit_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/CF_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Corina_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/ega_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Erika_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/KaWes_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Kerstin_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Larisa_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Maika_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Marie_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Marko_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/NiBli_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Pat_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Peter_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Romy_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/tobi_sw.png" width="1" height="1" alt="" />
-    <img src="img/polaroids/Yvonne_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_muc/alina_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_muc/corina_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_muc/ega_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_muc/kaknob_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_muc/kaqu_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_muc/Katharin_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_muc/martinam_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_muc/nama_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_muc/peter_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_muc/regina_sw.png" width="1" height="1" alt="" />
+    <img src="img/polaroids_muc/sola_sw.png" width="1" height="1" alt="" />
 </div>
 
 </body>

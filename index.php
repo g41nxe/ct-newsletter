@@ -1,6 +1,6 @@
 <?php
 // Konfiguriere, welche Suffixe erlaubt sind.
-$allowed_suffixes = array('de', 'uk');
+$allowed_suffixes = array('de', 'uk' , 'fr', 'muc');
 
 // Gibt es ueberhaupt Elemente im GET-Array?
 if(!empty($_GET))

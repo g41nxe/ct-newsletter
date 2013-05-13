@@ -79,9 +79,9 @@ header("Content-Type: text/html; charset=utf-8");
 
     <div id="header_2">
 	<!-- background-image -->
-	<div id="header_2_text">
+	<div id="header_2_text" style="top:10px;">
 	    <!--img src="img/alte_hasen_u_neue_gesichter.png" alt="Alte Hasen und neue Gesichter bei C&amp;T. Wer ist wer - und wer macht was?&#10;Spiel mit uns und gewinne ein Abendessen mit einem C&amp;T&lsquo;ler deiner Wahl!" /-->
-	    <span>Alte Hasen und neue Gesichter bei C&amp;T. Wer ist wer - und wer macht was?</span><br /><b>Spiel mit uns und gewinne ein Abendessen mit einem C&amp;T&lsquo;ler deiner Wahl!</b>
+	    <span>Old stagers and new faces at Conference &amp; Touring. Do you know who is who and who does what?</span><br /><b>Play with us and win a fam trip with your colleagues to a German destination of your choice!</b>
 	</div>
     </div>
     
@@ -143,7 +143,7 @@ header("Content-Type: text/html; charset=utf-8");
     </div>
 
     <div id="link_to_website">
-	<img src="img/link_to_web.png" width="800" height="290" border="0" usemap="#map_link_to_web" alt="Visit the Conference &amp; Touring Website" />
+	<img src="img/link_to_web_fr.png" width="800" height="290" border="0" usemap="#map_link_to_web" alt="Visit the Conference &amp; Touring Website" />
 
 	<map name="map_link_to_web" id="link_to_web">
 	    <area shape="rect" coords="190,153,781,265" alt="Link to dmcgermany.de" href="http://www.dmcgermany.de/destination-management/" target="_blank" />
@@ -154,22 +154,23 @@ header("Content-Type: text/html; charset=utf-8");
 	<a name="hook_success">&nbsp;</a>
     </div>
 
-    <div id="participant_form">
+    <div id="participant_form" style="background-image: url('img/participant_form_bg_uk.png'); height: 356px;">
 	<div id="formular">
-	<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
+	<form method="post" action="<?php echo $_SERVER['PHP_SELF'].'?'.$_SERVER['QUERY_STRING']; ?>" >
 	<fieldset>
 	    <span class="short">Name:</span> <input class="long" type="text" name="name" value="" /> <br />
-	    <span class="short" >Unternehmen:</span> <input class="long" type="text" name="company" value="" /> <br />
-	    <span class="short">E-Mail-Adresse:</span> <input class="long" type="text" name="email" value="" /> <br />
+	    <span class="short" >Company:</span> <input class="long" type="text" name="company" value="" /> <br />
+	    <span class="short">E-Mail adress:</span> <input class="long" type="text" name="email" value="" /> <br />
 	    <span class="long">Mit diesem C&amp;T&lsquo;ler würde ich gerne Essen gehen:</span> <input class="short" type="text" name="prefered_person" value="" /> <br />
-		<input id="submit" type="submit" name="action" value="Ja, ich mag gutes Essen - und will gewinnen!"/>
+		<input id="submit" type="submit" name="action" value="Yes, I want to come to Germany!"/>
 	</fieldset>
 	</form>
 	</div>
     </div>
 
     <div id="imex">
-		<p>Wir dr&uuml;cken dir die Daumen f&uuml;r unser gemeinsames Abendessen! In der Zwischenzeit triff uns doch auf der IMEX! Dieses Jahr findest du uns am <br /> <a id="highlight" href="https://portal.imex-frankfurt.com/vex-2013/exweb.php?back=vexsearch.php$$exhibname=conference%20&%20touring$standnum=$action=specific&uid=258472">M&uuml;nchen Stand!</a></p>
+		<p>We keep our fingers crossed for you to be the lucky winner! In the meantime meet us at the IMEX in Frankfurt! This year you will find us at the
+<br /> <a id="highlight" href="https://portal.imex-frankfurt.com/vex-2013/exweb.php?back=vexsearch.php$$exhibname=conference%20&%20touring$standnum=$action=specific&uid=258472">Munich stand G170!</a></p>
     </div>
     <div id="footer">
     <p>
@@ -179,6 +180,9 @@ header("Content-Type: text/html; charset=utf-8");
 	</p>
     </div>
 
+<div style="text-align: center; font-family: Verdana; color:#808080; font-size: 10px; line-height: 10px;">    If you can not see the newsletter, please click <b><a style="color:#808080; text-decoration: none;" href="http://newsletter.dmcgermany.de/?uk" target="_blank">here</a></b> for our online version.<br /> If you would like to unsubscribe from this newsletter, please send an E-Mail to<br /><b><a  style="color:#808080; text-decoration: none;" href="mailto:info@dmcgermany.de?subject=Unsubscribtion Newsletter">info@dmcgermany.de</a></b><br /><br />
+</div>
+    
 </div><!-- END: div-main -->
 
 <!-- preloading images -->

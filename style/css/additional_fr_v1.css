@@ -1,0 +1,504 @@
+@charset "UTF-8"; 
+/*
+Ab hier werden die Container der Fotos, deren Bereiche fuer die Jobtitel
+und die Jobtitel selbst definiert.
+
+- portrait_n : Das Polaroid-Bild
+- portrait_job_n : Der Bereich unter dem jeweiligen Polaroid-Bild
+- job_n : Der Ursprungsbereich des Jobtitels
+*/
+
+/*#game_field div { background-color: #ff0000; }*/
+
+/* 1 */
+#game_field #portrait_1
+{
+    position: absolute;
+    top: 117px;
+    left: -36px;
+    background-image: url("../../img/polaroids_fr/babe.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_1
+{
+    position: absolute;
+    top: 277px;
+    left: -12px;
+    width: 137px;
+    height: 53px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_1
+{
+    position: absolute;
+    top: 203px;
+    left: 293px;
+    /**/background-image: url("../../img/titles_fr/direc.png");
+    background-repeat: no-repeat;
+    width: 137px;
+    height: 53px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 2 */
+#game_field #portrait_2
+{
+    position: absolute;
+    top: 133px;
+    left: 112px;
+    background-image: url("../../img/polaroids_fr/baga.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_2
+{
+    position: absolute;
+    top: 278px;
+    left: 141px;
+    width: 148px;
+    height: 57px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_2
+{
+    position: absolute;
+    top: 362px;
+    left: 300px;
+    /**/background-image: url("../../img/titles_fr/res.png");
+    background-repeat: no-repeat;
+    width: 148px;
+    height: 57px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 3 */
+#game_field #portrait_3
+{
+    position: absolute;
+    top: 319px;
+    left: -25px;
+    background-image: url("../../img/polaroids_fr/friede.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_3
+{
+    position: absolute;
+    top: 483px;
+    left: 16px;
+    width: 102px;
+    height: 45px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_3
+{
+    position: absolute;
+    top: 486px;
+    left: 404px;
+    /**/background-image: url("../../img/titles_fr/fr.png");
+    background-repeat: no-repeat;
+    width: 103px;
+    height: 45px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 4 */
+#game_field #portrait_4
+{
+    position: absolute;
+    top: 331px;
+    left: 135px;
+    background-image: url("../../img/polaroids_fr/ulst.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_4
+{
+    position: absolute;
+    top: 492px;
+    left: 175px;
+    width: 102px;
+    height: 45px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_4
+{
+    position: absolute;
+    top: 441px;
+    left: 317px;
+    /**/background-image: url("../../img/titles_fr/fr.png");
+    background-repeat: no-repeat;
+    width: 102px;
+    height: 45px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 5 */
+#game_field #portrait_5
+{
+    position: absolute;
+    top: 516px;
+    left: -14px;
+    background-image: url("../../img/polaroids_fr/kaq.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_5
+{
+    position: absolute;
+    top: 683px;
+    left: 29px;
+    width: 101px;
+    height: 44px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_5
+{
+    position: absolute;
+    top: 530px;
+    left: 313px;
+    /**/background-image: url("../../img/titles_fr/frmuu.png");
+    background-repeat: no-repeat;
+    width: 101px;
+    height: 44px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 6 */
+#game_field #portrait_6
+{
+    position: absolute;
+    top: 530px;
+    left: 150px;
+    background-image: url("../../img/polaroids_fr/mandy.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_6
+{
+    position: absolute;
+    top: 691px;
+    left: 195px;
+    width: 102px;
+    height: 45px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_6
+{
+    position: absolute;
+    top: 303px;
+    left: 346px;
+    /**/background-image: url("../../img/titles_fr/fr.png");
+    background-repeat: no-repeat;
+    width: 102px;
+    height: 45px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 7 */
+#game_field #portrait_7
+{
+    position: absolute;
+    top: 586px;
+    left: 367px;
+    background-image: url("../../img/polaroids_fr/peter.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_7
+{
+    position: absolute;
+    top: 740px;
+    left: 391px;
+    width: 78px;
+    height: 46px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_7
+{
+    position: absolute;
+    top: 321px;
+    left: 264px;
+    /**/background-image: url("../../img/titles_fr/general.png");
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 46px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 8 */
+#game_field #portrait_8
+{
+    position: absolute;
+    top: 115px;
+    left: 535px;
+    background-image: url("../../img/polaroids_fr/romy.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_8
+{
+    position: absolute;
+    top: 271px;
+    left: 548px;
+    width: 110px;
+    height: 45px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_8
+{
+    position: absolute;
+    top: 146px;
+    left: 268px;
+    /**/background-image: url("../../img/titles_fr/fran.png");
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 45px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 9 */
+#game_field #portrait_9
+{
+    position: absolute;
+    top: 100px;
+    left: 681px;
+    background-image: url("../../img/polaroids_fr/lydie.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_9
+{
+    position: absolute;
+    top: 257px;
+    left: 700px;
+    width: 110px;
+    height: 45px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_9
+{
+    position: absolute;
+    top: 261px;
+    left: 292px;
+    /**/background-image: url("../../img/titles_fr/fran.png");
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 45px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 10 */
+#game_field #portrait_10
+{
+    position: absolute;
+    top: 318px;
+    left: 536px;
+    background-image: url("../../img/polaroids_fr/maria.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_10
+{
+    position: absolute;
+    top: 467px;
+    left: 546px;
+    width: 107px;
+    height: 52px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_10
+{
+    position: absolute;
+    top: 166px;
+    left: 430px;
+    /**/background-image: url("../../img/titles_fr/frh.png");
+    background-repeat: no-repeat;
+    width: 107px;
+    height: 52px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 11 */
+#game_field #portrait_11
+{
+    position: absolute;
+    top: 295px;
+    left: 685px;
+    background-image: url("../../img/polaroids_fr/regina.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_11
+{
+    position: absolute;
+    top: 452px;
+    left: 701px;
+    width: 111px;
+    height: 50px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_11
+{
+    position: absolute;
+    top: 401px;
+    left: 427px;
+    /**/background-image: url("../../img/titles_fr/frm.png");
+    background-repeat: no-repeat;
+    width: 111px;
+    height: 50px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 12 */
+#game_field #portrait_12
+{
+    position: absolute;
+    top: 502px;
+    left: 517px;
+    background-image: url("../../img/polaroids_fr/eva.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_12
+{
+    position: absolute;
+    top: 659px;
+    left: 533px;
+    width: 103px;
+    height: 50px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_12
+{
+    position: absolute;
+    top: 322px;
+    left: 441px;
+    /**/background-image: url("../../img/titles_fr/frco.png");
+    background-repeat: no-repeat;
+    width: 103px;
+    height: 50px;
+    display:block;
+    z-index: 1000;
+}
+
+
+/* 13 */
+#game_field #portrait_13
+{
+    position: absolute;
+    top: 488px;
+    left: 663px;
+    background-image: url("../../img/polaroids_fr/sarah.png");
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 182px;
+    display:block; 
+}
+
+#game_field #portrait_job_13
+{
+    position: absolute;
+    top: 652px;
+    left: 679px;
+    width: 107px;
+    height: 47px;
+    display:block;
+    z-index: 1000;
+}
+
+#game_field #job_13
+{
+    position: absolute;
+    top: 243px;
+    left: 402px;
+    /**/background-image: url("../../img/titles_fr/frfr.png");
+    background-repeat: no-repeat;
+    width: 107px;
+    height: 47px;
+    display:block;
+    z-index: 1000;
+}
