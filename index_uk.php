@@ -143,14 +143,14 @@ header("Content-Type: text/html; charset=utf-8");
     </div>
 
     <div id="link_to_website">
-	<img src="img/link_to_web_fr.png" width="800" height="290" border="0" usemap="#map_link_to_web" alt="Visit the Conference &amp; Touring Website" />
+	<img src="img/middle_uk.png" width="800" height="290" border="0" usemap="#map_link_to_web" alt="Visit the Conference &amp; Touring Website" />
 
 	<map name="map_link_to_web" id="link_to_web">
 	    <area shape="rect" coords="190,153,781,265" alt="Link to dmcgermany.de" href="http://www.dmcgermany.de/destination-management/" target="_blank" />
 	</map>
     </div>
 
-    <div id="on_success">
+    <div id="on_success" style="background-image: url('img/correct_uk.png');">
 	<a name="hook_success">&nbsp;</a>
     </div>
 
