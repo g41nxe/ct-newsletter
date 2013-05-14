@@ -87,7 +87,7 @@ Qui est qui et qui fait quoi?</span> <b>Jouez avec nous et gagnez un éductour a
     </div>
     
     <!-- fixing the height in style-attribute -->
-    <div id="game_field" style="height: 800px;" onmousedown="javascript:scrollTo('#game_field');">
+    <div id="game_field" style="height: 800px; background-image: url('img/drag_drop_bg_fr.png');" onmousedown="javascript:scrollTo('#game_field');">
 
 	<div id="portrait_1"></div>
 	<div id="portrait_job_1"></div>
@@ -171,12 +171,12 @@ Qui est qui et qui fait quoi?</span> <b>Jouez avec nous et gagnez un éductour a
 
     <div id="imex">
 		<p style="font-size: 16px;">Nous croisons les doigts pour que vous soyez l’heureux(se) gagnant(e)! En attendant, vous pouvez toujours nous rencontrer lors de l’IMEX à Francfort ! Vous nous trouverez au
-<br /> <a id="highlight" href="https://portal.imex-frankfurt.com/vex-2013/exweb.php?back=vexsearch.php$$exhibname=conference%20&%20touring$standnum=$action=specific&uid=258472">Stand de Munich (G170)</a></p>
+<br /> <a id="highlight" href="https://portal.imex-frankfurt.com/vex-2013/exweb.php?back=vexsearch.php$$exhibname=conference%20&%20touring$standnum=$action=specific&uid=258472" target="_blank">Stand de Munich (G170)</a></p>
     </div>
     <div id="footer">
     <p>
     	Conference &amp; Touring | C &amp; T GmbH | Kaiserdamm 110 | D - 14057 Berlin <br />
-    	Telf.: +49 (0) 30 / 30 12 80 | <a href="mailto:info@dmcgermany.de">info@dmcgermany.de</a> <br />
+    	Tel.: +49 (0) 30 / 30 12 80 | <a href="mailto:info@dmcgermany.de">info@dmcgermany.de</a> <br />
     	Conference &amp; Touring is part of:
 	</p>
     </div>
