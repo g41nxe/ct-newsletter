@@ -27,7 +27,7 @@ und die Jobtitel selbst definiert.
 {
     position: absolute;
     top: 197px;
-    left: 0px;
+    left: 5px;
     width: 107px;
     height: 58px;
     display:block;
@@ -64,8 +64,8 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_2
 {
     position: absolute;
-    top: 260px;
-    left: 157px;
+    top: 258px;
+    left: 164px;
     width: 134px;
     height: 64px;
     display:block;
@@ -103,7 +103,7 @@ und die Jobtitel selbst definiert.
 {
     position: absolute;
     top: 397px;
-    left: 26px;
+    left: 30px;
     width: 99px;
     height: 50px;
     display:block;
@@ -140,8 +140,8 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_4
 {
     position: absolute;
-    top: 614px;
-    left: 7px;
+    top: 610px;
+    left: 16px;
     width: 143px;
     height: 76px;
     display:block;
@@ -178,8 +178,8 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_5
 {
     position: absolute;
-    top: 603px;
-    left: 182px;
+    top: 609px;
+    left: 188px;
     width: 143px;
     height: 53px;
     display:block;
@@ -216,8 +216,8 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_6
 {
     position: absolute;
-    top: 626px;
-    left: 369px;
+    top: 640px;
+    left: 385px;
     width: 88px;
     height: 33px;
     display:block;
@@ -254,8 +254,8 @@ und die Jobtitel selbst definiert.
 #game_field #portrait_job_7
 {
     position: absolute;
-    top: 257px;
-    left: 530px;
+    top: 263px;
+    left: 535px;
     width: 90px;
     height: 51px;
     display:block;
@@ -293,7 +293,7 @@ und die Jobtitel selbst definiert.
 {
     position: absolute;
     top: 190px;
-    left: 685px;
+    left: 690px;
     width: 115px;
     height: 58px;
     display:block;
@@ -369,7 +369,7 @@ und die Jobtitel selbst definiert.
 {
     position: absolute;
     top: 606px;
-    left: 487px;
+    left: 500px;
     width: 141px;
     height: 72px;
     display:block;
