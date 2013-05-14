@@ -146,7 +146,7 @@ header("Content-Type: text/html; charset=utf-8");
 	<img src="img/middle_uk.png" width="800" height="290" border="0" usemap="#map_link_to_web" alt="Visit the Conference &amp; Touring Website" />
 
 	<map name="map_link_to_web" id="link_to_web">
-	    <area shape="rect" coords="190,153,781,265" alt="Link to dmcgermany.de" href="http://www.dmcgermany.de/destination-management/" target="_blank" />
+	    <area shape="rect" coords="190,153,781,265" alt="Link to dmcgermany.de" href="http://www.dmcgermany.de" target="_blank" />
 	</map>
     </div>
 
