@@ -181,8 +181,8 @@ Qui est qui et qui fait quoi?</span> <b>Jouez avec nous et gagnez un éductour a
 	</p>
     </div>
 
-<div style="text-align: center; font-family: Verdana; color:#808080; font-size: 10px; line-height: 10px;">  Si vous ne pouvez pas voir notre newsletter, veuillez cliquer <b><a style="color:#808080; text-decoration: none;" href="http://newsletter.dmcgermany.de/?fr" target="_blank">ici</a></b> pour consulter la version en ligne.<br /> Si vous souhaitez vous désabonner, veuillez envoyer un E-mail à<br /><b><a  style="color:#808080; text-decoration: none;" href="mailto:info@dmcgermany.de?subject=Unsubscribtion Newsletter">info@dmcgermany.de</a></b><br /><br />
-</div>
+<!--div style="text-align: center; font-family: Verdana; color:#808080; font-size: 10px; line-height: 10px;">  Si vous ne pouvez pas voir notre newsletter, veuillez cliquer <b><a style="color:#808080; text-decoration: none;" href="http://newsletter.dmcgermany.de/?fr" target="_blank">ici</a></b> pour consulter la version en ligne.<br /> Si vous souhaitez vous désabonner, veuillez envoyer un E-mail à<br /><b><a  style="color:#808080; text-decoration: none;" href="mailto:info@dmcgermany.de?subject=Unsubscribtion Newsletter">info@dmcgermany.de</a></b><br /><br />
+</div-->
     
 </div><!-- END: div-main -->
 
