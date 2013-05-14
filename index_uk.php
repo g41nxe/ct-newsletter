@@ -161,7 +161,7 @@ header("Content-Type: text/html; charset=utf-8");
 	    <span class="short">Name:</span> <input class="long" type="text" name="name" value="" /> <br />
 	    <span class="short" >Company:</span> <input class="long" type="text" name="company" value="" /> <br />
 	    <span class="short">E-Mail adress:</span> <input class="long" type="text" name="email" value="" /> <br />
-	    <span class="long">Mit diesem C&amp;T&lsquo;ler würde ich gerne Essen gehen:</span> <input class="short" type="text" name="prefered_person" value="" /> <br />
+	    <span class="long" style="display:none;">Mit diesem C&amp;T&lsquo;ler würde ich gerne Essen gehen:</span> <input class="short"  style="display:none;" type="text" name="prefered_person" value="n/a" /> <br />
 		<input id="submit" type="submit" name="action" value="Yes, I want to come to Germany!"/>
 	</fieldset>
 	</form>
