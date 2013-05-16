@@ -2,10 +2,13 @@
 
 $FILE_ALL_MAILS = "mail_adresses.txt";
 
-$FILES = array();
-$FILES[] = "muc";
-$FILES[] = "oe";
-$FILES[] = "uk";
+//$FILES = array();
+//$FILES[] = "muc";
+//$FILES[] = "oe";
+//$FILES[] = "uk";
+$FILES[] = "fr";
+
+$EXT = ".csv";
 
 /**
  * @link http://gist.github.com/385876
@@ -43,6 +46,10 @@ function flatten($aNonFlat)
 $all_mails = file($FILE_ALL_MAILS, FILE_IGNORE_NEW_LINES);
 $all_mails = array_map('trim', $all_mails);
 
+$other_mails = file("new_mails.txt", FILE_IGNORE_NEW_LINES);
+$other_mails = array_map('trim', $other_mails);
+
+$all_mails = array_merge($other_mails, $all_mails);
 
 $counter = 0;
 foreach ($FILES as $filename)
@@ -51,7 +58,7 @@ foreach ($FILES as $filename)
 	echo "open file ".$filename.".csv \n";
 
 	$data = array();
-	$data = csv_to_array($filename.".csv", ";") or die('error reading file.');
+	$data = csv_to_array($filename.$EXT, ";") or die('error reading file.');
 	$data = array_map('trim', flatten($data));
 	$counter += count($data);
 	$res = array();
@@ -74,6 +81,6 @@ foreach ($FILES as $filename)
 	echo "done.\n";
 }
 
-echo count($all_mails) . "/" . $counter . " missing\n";
+echo count($all_mails) . " not delivered mails / " . $counter . " mail addresses in lists\n";
 
 ?>
