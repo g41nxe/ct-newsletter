@@ -15,8 +15,10 @@ header("Content-Type: text/html; charset=utf-8");
     <meta name="robots" content="noindex,nofollow" />
     <link rel="stylesheet" type="text/css" href="style/css/main_v1.css" />
     <link rel="stylesheet" type="text/css" href="style/css/additional_fr_v1.css" />
-    <!-- jqery library -->
-    <script type="text/javascript" src="js/jquery/jquery-2.0.0.min.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery/jquery-2.0.0.min.js"></script>
+    	IE BUGS!! NO IE SUPPORT SINCE JQUERY 2.0
+    -->
+    <script type="text/javascript" src="js/jquery/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="js/jquery/jquery-ui-1.10.2.custom.min.js"></script>
     <!-- game code -->
     <script type="text/javascript">
@@ -24,16 +26,16 @@ header("Content-Type: text/html; charset=utf-8");
 	/**
 	 * this var will be used in dragdrop.js
 	 * so there is no need for another *.js file for different versions
-	 * 
+	 *
 	 * @type String
 	 */
 	var get_path_to_polaroids_from_index = "img/polaroids_fr/";
-	
+
 	/**
-	 * Use this Objects as a map of #ids (of divs) containing the 
-	 * job titles to #ids (of divs) containting the portraits 
+	 * Use this Objects as a map of #ids (of divs) containing the
+	 * job titles to #ids (of divs) containting the portraits
 	 * and vice versa
-	 * 
+	 *
 	 * @type Array
 	 */
 	var job2portrait = {
@@ -85,7 +87,7 @@ header("Content-Type: text/html; charset=utf-8");
 Qui est qui et qui fait quoi?</span> <b>Jouez avec nous et gagnez un éductour avec vos collègues dans la destination allemande de votre choix!</b>
 	</div>
     </div>
-    
+
     <!-- fixing the height in style-attribute -->
     <div id="game_field" style="height: 800px; background-image: url('img/drag_drop_bg_fr.png');" onmousedown="javascript:scrollTo('#game_field');">
 
@@ -100,7 +102,7 @@ Qui est qui et qui fait quoi?</span> <b>Jouez avec nous et gagnez un éductour a
 	<div id="portrait_3"></div>
 	<div id="portrait_job_3"></div>
 	<div id="job_3"><!--img src="img/titles_fr/setter.png" alt="The trend setter" /--></div>
-	
+
 	<div id="portrait_4"></div>
 	<div id="portrait_job_4"></div>
 	<div id="job_4"><!--img src="img/titles_fr/wizard.png" alt="The Munich congress wizard" /--></div>
@@ -112,11 +114,11 @@ Qui est qui et qui fait quoi?</span> <b>Jouez avec nous et gagnez un éductour a
 	<div id="portrait_6"></div>
 	<div id="portrait_job_6"></div>
 	<div id="job_6"><!--img src="img/titles_fr/cologne.png" alt="The Cologne contact" /--></div>
-	
+
 	<div id="portrait_7"></div>
 	<div id="portrait_job_7"></div>
 	<div id="job_7"><!--img src="img/titles_fr/london.png" alt="The London contact" /--></div>
-	
+
 	<div id="portrait_8"></div>
 	<div id="portrait_job_8"></div>
 	<div id="job_8"><!--img src="img/titles_fr/frankfurter.png" alt="The Frankfurter" /--></div>
@@ -124,15 +126,15 @@ Qui est qui et qui fait quoi?</span> <b>Jouez avec nous et gagnez un éductour a
 	<div id="portrait_9"></div>
 	<div id="portrait_job_9"></div>
 	<div id="job_9"><!--img src="img/titles_fr/rep.png" alt="The rep-your gateway to Germany" /--></div>
-	
+
 	<div id="portrait_10"></div>
 	<div id="portrait_job_10"></div>
 	<div id="job_10"><!--img src="img/titles_fr/berliner.png" alt="The real Berliner" /--></div>
-	
+
 	<div id="portrait_11"></div>
 	<div id="portrait_job_11"></div>
 	<div id="job_11"><!--img src="img/titles_fr/hamburger.png" alt="The Hamburger" /--></div>
-	
+
 	<div id="portrait_12"></div>
 	<div id="portrait_job_12"></div>
 	<div id="job_12"><!--img src="img/titles_fr/dude.png" alt="The design dude" /--></div>
@@ -183,7 +185,7 @@ Qui est qui et qui fait quoi?</span> <b>Jouez avec nous et gagnez un éductour a
 
 <!--div style="text-align: center; font-family: Verdana; color:#808080; font-size: 10px; line-height: 10px;">  Si vous ne pouvez pas voir notre newsletter, veuillez cliquer <b><a style="color:#808080; text-decoration: none;" href="http://newsletter.dmcgermany.de/?fr" target="_blank">ici</a></b> pour consulter la version en ligne.<br /> Si vous souhaitez vous désabonner, veuillez envoyer un E-mail à<br /><b><a  style="color:#808080; text-decoration: none;" href="mailto:info@dmcgermany.de?subject=Unsubscribtion Newsletter">info@dmcgermany.de</a></b><br /><br />
 </div-->
-    
+
 </div><!-- END: div-main -->
 
 <!-- preloading images -->

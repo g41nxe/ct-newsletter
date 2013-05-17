@@ -15,8 +15,10 @@ header("Content-Type: text/html; charset=utf-8");
     <meta name="robots" content="noindex,nofollow" />
     <link rel="stylesheet" type="text/css" href="style/css/main_v1.css" />
     <link rel="stylesheet" type="text/css" href="style/css/additional_muc_v1.css" />
-    <!-- jqery library -->
-    <script type="text/javascript" src="js/jquery/jquery-2.0.0.min.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery/jquery-2.0.0.min.js"></script>
+    	IE BUGS!! NO IE SUPPORT SINCE JQUERY 2.0
+    -->
+    <script type="text/javascript" src="js/jquery/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="js/jquery/jquery-ui-1.10.2.custom.min.js"></script>
     <!-- game code -->
     <script type="text/javascript">
@@ -24,16 +26,16 @@ header("Content-Type: text/html; charset=utf-8");
 	/**
 	 * this var will be used in dragdrop.js
 	 * so there is no need for another *.js file for different versions
-	 * 
+	 *
 	 * @type String
 	 */
 	var get_path_to_polaroids_from_index = "img/polaroids_muc/";
-	
+
 	/**
-	 * Use this Objects as a map of #ids (of divs) containing the 
-	 * job titles to #ids (of divs) containting the portraits 
+	 * Use this Objects as a map of #ids (of divs) containing the
+	 * job titles to #ids (of divs) containting the portraits
 	 * and vice versa
-	 * 
+	 *
 	 * @type Array
 	 */
 	var job2portrait = {
@@ -167,10 +169,10 @@ header("Content-Type: text/html; charset=utf-8");
     	Conference &amp; Touring is part of:
 	</p>
     </div>
-    
+
 <!--div style="text-align: center; font-family: Verdana; color:#808080; font-size: 10px; line-height: 10px;">    If you can not see the newsletter, please click <b><a style="color:#808080; text-decoration: none;" href="http://newsletter.dmcgermany.de/?muc" target="_blank">here</a></b> for our online version.<br /> If you would like to unsubscribe from this newsletter, please send an E-Mail to<br /><b><a  style="color:#808080; text-decoration: none;" href="mailto:info@dmcgermany.de?subject=Unsubscribtion Newsletter">info@dmcgermany.de</a></b><br /><br />
 </div-->
-    
+
 </div><!-- END: div-main -->
 
 <!-- preloading images -->
